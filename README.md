@@ -1,5 +1,11 @@
 # zp-page
+## What is ZP-portal?
+이 페이지는 동아리 홍보용 페이지이자, <br>
+기존에 있던 [ZeroPage wiki](https://wiki.zeropage.org/wiki.php)와 [ZeroPage main](https://zeropage.org/)에 대한 사용법 및 포탈 용도로 만들어진 페이지입니다.
 
+아직 개발 중입니다.
+
+추후에 추가하면 좋을 내용이나 원하는 수정사항이 있으면 mj04300017@gmail.com으로 연락주세요 :)
 ## Build Setup
 
 ```bash
