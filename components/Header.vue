@@ -18,9 +18,9 @@
                     <li class="py-1.5 px-2.5 rounded-lg md:block text-white lgtoxl hover:text-black transition hover:duration-300 font-normal">
                         <nuxt-link :to="{path: '/manual'}" replace>Manual</nuxt-link>
                     </li>
-                    <li class="py-1.5 px-2.5 rounded-lg md:block text-white lgtoxl hover:text-black transition hover:duration-300 font-normal">
+                    <!-- <li class="py-1.5 px-2.5 rounded-lg md:block text-white lgtoxl hover:text-black transition hover:duration-300 font-normal">
                         <a href="https://github.com/ZeroPage" target="blank">GitHub</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>

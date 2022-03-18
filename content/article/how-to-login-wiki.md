@@ -1,6 +1,9 @@
 ---
-title: zeropage manual
-description: How to use zeropage wiki
+title: ZeroPage Wiki 로그인이 안돼요
+description: How to login ZeroPage Wiki
+slug: how-to-login-wiki
+category: wiki
+img: wiki-login.jpg
 ---
 
 ## ZeroPage에 가입하는 방법
