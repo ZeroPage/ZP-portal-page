@@ -6,9 +6,9 @@
                     <div>
                         <img :src="require(`~/assets/resources/category/zero-wiki.jpg`)" class="rounded-t-xl border-none rounded-b-xl"/>
                     </div>
-                    <!-- <div class="text-center px-4 py-6">
-                        <p class="font-general-semibold text-xl text-ternary-dark  font-semibold mb-2">Wiki</p>
-                    </div> -->
+                    <div class="text-center px-4 py-6">
+                        <p class="font-general-semibold text-xl font-semibold mb-2">⚠️ 공사 중 ⚠️</p>
+                    </div>
                 </nuxt-link>
             </div>
             <div class="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 ">
@@ -16,21 +16,21 @@
                     <div>
                         <img :src="require(`~/assets/resources/category/zero-main.jpg`)" class="rounded-t-xl border-none rounded-b-xl"/>
                     </div>
-                    <!-- <div class="text-center px-4 py-6">
-                        <p class="font-general-semibold text-xl text-ternary-dark font-semibold mb-2">Main</p>
-                    </div> -->
+                    <div class="text-center px-4 py-6">
+                        <p class="font-general-semibold text-xl font-semibold mb-2">⚠️ 공사 중 ⚠️</p>
+                    </div>
                 </nuxt-link>
             </div>
-            <div class="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 ">
+            <!-- <div class="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 ">
                 <nuxt-link to="github">
                     <div>
                         <img :src="require(`~/assets/resources/category/zero-github.jpg`)" class="rounded-t-xl border-none rounded-b-xl"/>
                     </div>
-                    <!-- <div class="text-center px-4 py-6">
-                        <p class="font-general-semibold text-xl text-ternary-dark  font-semibold mb-2">GitHub</p>
-                    </div> -->
+                    <div class="text-center px-4 py-6">
+                        <p class="font-general-semibold text-xl font-semibold mb-2">⚠️ 공사 중 ⚠️</p>
+                    </div>
                 </nuxt-link>
-            </div>
+            </div> -->
              
         </div>
     </div>

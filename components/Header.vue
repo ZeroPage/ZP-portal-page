@@ -5,7 +5,7 @@
             <nuxt-link to='/'> <HeaderLogo class="drop-shadow-sm pl-2" /> </nuxt-link>
             
             <div>
-                <ul class="flex space-x-4 items-center">
+                <ul class="flex space-x-2 items-center">
                     <li class="py-1.5 px-2.5 rounded-lg md:block text-white lgtoxl hover:text-black transition hover:duration-300 font-normal">
                         <a href="https://wiki.zeropage.org/wiki.php" target="blank">Wiki</a>
                     </li>

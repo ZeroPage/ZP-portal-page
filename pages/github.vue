@@ -1,7 +1,7 @@
 <template>
     <div class="w-full z-0 bg-img section h-content" style="background-image: url(bg-img3.jpg)">
         <Header/>
-        <div class="pt-10 md:pt-15 pb-3 md:pb-10 max-w-7xl mx-auto px-6">
+        <div class="pt-20 md:pt-15 pb-3 md:pb-10 max-w-7xl mx-auto px-6">
             <div class="pb-6 text-3xl md:text-5xl font-semibold text-gray-800">
                 GitHub
             </div>
@@ -74,5 +74,14 @@ export default {
   height: 141.33px;
   border-radius: 0.75rem;
   overflow: hidden;
+}
+.bg-img {
+        background-position: center;
+        background-repeat:  no-repeat;
+        background-size:  cover;
+        background-color: #FFFFFF;
+ }
+ .section {
+  position: relative;
 }
 </style>

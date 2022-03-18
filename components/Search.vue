@@ -1,6 +1,6 @@
 <template>
       <div class="max-w-7xl mx-auto px-6 pt-1 md:pt-0 md:0b-0">
-        <div class="shadow-sm md:shadow w-full rounded-lg border border-gray-800 flex items-center mb-4 py-3 md:py-3.5 px-5 bg-white">
+        <div class="shadow-sm md:shadow w-full rounded-2xl border border-gray-800 flex items-center mb-4 py-3 md:py-3.5 px-5 bg-white">
             <SearchIcon />
             <input placeholder="궁금한 것을 검색해보세요!" v-model="query" type="search" autocomplete="off" 
             class="ml-3 bg-white flex-auto text-base text-gray-800 pr-3.5 md:pr-6 flex items-center placeholder-text-gray-400" />

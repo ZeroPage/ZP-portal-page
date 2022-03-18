@@ -3,9 +3,13 @@
     <Header />
     <div class="mx-auto max-w-7xl px-6 md:px-10">
         <div class="text-black text-4xl md:text-6xl pt-40 md:pt-72 mb-4 font-semibold drop-shadow-md">This is ZeroPage</div>
-        <div class="text-gray-600 font-semibold md:text-2xl mb-20 md:mb-36 md:pb-10 drop-shadow">중앙대학교 소프트웨어학부 학술동아리</div>
+        <div class="text-gray-500 font-semibold md:text-2xl mb-20 md:mb-36 md:pb-16 drop-shadow">중앙대학교 소프트웨어학부 학술동아리</div>
 
-        <div class="text-3xl md:text-4xl text-black md:pt-12 mb-5 md:mb-7 font-medium">What is ZP</div>
+        <div class="text-3xl md:text-4xl text-black md:pt-12 mb-5 md:mb-2 font-semibold">What is ZP ?</div>
+        <div class="text-gray-600 font-semibold md:text-xl mb-20 md:mb-36 md:pb-4 drop-shadow">인력의 장 ZeroPage를 소개합니다.</div>
+
+        <div class="text-3xl md:text-4xl text-black md:pt-20 mb-5 md:mb-2 font-semibold">What does ZP do ?</div>
+        <div class="text-gray-600 font-semibold md:text-xl mb-20 md:mb-36 md:pb-4 drop-shadow">ZeroPage의 활동들을 소개합니다.</div>
     </div>
     <Footer />
   </div>
