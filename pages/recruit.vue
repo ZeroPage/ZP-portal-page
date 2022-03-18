@@ -29,5 +29,13 @@
 </script>
 
 <style scoped>
-
+.bg-img {
+        background-position: center;
+        background-repeat:  no-repeat;
+        background-size:  cover;
+        background-color: #FFFFFF;
+ }
+ .section {
+  position: relative;
+}
 </style>
