@@ -100,12 +100,12 @@ export default {
             {
             hid: 'og:image',
             property: 'og:image',
-            content: 'https://raw.githubusercontent.com/ZeroPage/ZP-portal-page/tree/main/static/og_image.jpg'
+            content: 'https://raw.githubusercontent.com/ZeroPage/ZP-portal-page/main/static/og_image.jpg'
             },
             {
             hid: 'og:image:secure_url',
             property: 'og:image:secure_url',
-            content: 'https://raw.githubusercontent.com/ZeroPage/ZP-portal-page/tree/main/static/og_image.jpg'
+            content: 'https://raw.githubusercontent.com/ZeroPage/ZP-portal-page/main/static/og_image.jpg'
             },
             {
             hid: 'og:image:alt',
