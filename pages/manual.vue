@@ -15,7 +15,7 @@
 
         <Category class="md:pt-10 md:pb-20"/>
         <div class="py-60 text-black text-2xl font-semibold text-center"> 
-            더 궁금한 게 있나요? 많은 정보와 함께 다시 찾아뵐게요. 😀
+            더 궁금한 게 있나요? ZP 회장님께 요청해봐요! 😀
         </div>
         <Footer />
     </div>

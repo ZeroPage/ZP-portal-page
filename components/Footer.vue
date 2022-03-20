@@ -22,7 +22,8 @@
 
             <ul class="flex justify-center md:absolute md:bottom-0 md:right-0 md:block mt-10 md:mt-0">
                 <li class="text-xs md:text-sm font-normal text-black">Developed by 
-                    <a class="underline" href="https://github.com/minjun0430">MinJun Choi</a></li>
+                    <a class="underline" href="https://github.com/minjun0430">MinJun Choi</a>, 
+                    <a class="underline" href="https://github.com/ktasha45">ktasha45</a></li>
             </ul>
 
         </div>

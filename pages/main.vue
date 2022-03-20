@@ -21,7 +21,7 @@
                   </div>
                   <div class="px-0 md:px-4 md:pl-9">
                       <p class="mb-1 md:mb-1.5 text-sm md:text-sm text-blue-900">{{article.category}} · ZeroPage</p>
-                      <h2 class="mb-1 md:mb-1.5 text-lg md:text-xl font-medium  text-gray-800 transition group-hover:text-blue-500 group-hover:duration-500">{{ article.title }}</h2>
+                      <h2 class="mb-1 md:mb-1.5 text-lg md:text-xl font-semibold  text-gray-800 transition group-hover:text-blue-500 group-hover:duration-500">{{ article.title }}</h2>
                       <p class=" text-sm md:text-base text-gray-600 custom-text">{{article.description}}</p>
                   </div>
                 </div>
@@ -38,7 +38,7 @@ export default {
   async asyncData({ $content, params }) {
     const articles = await $content('article', params.slug)
       .where({category: 'main'})
-    //   .sortBy('createdAt', 'desc')
+      .sortBy('title')
       .fetch();
     return {
       articles

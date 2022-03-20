@@ -49,6 +49,7 @@ export default {
         hid: 'og:image:secure_url',
         property: 'og:image:secure_url',
         content: 'https://raw.githubusercontent.com/ZeroPage/ZP-portal-page/main/static/og_image.jpg'
+      
       },
       {
         hid: 'og:image:alt',
@@ -59,7 +60,9 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
+    
   },
+
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
