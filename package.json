@@ -9,12 +9,16 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@growthbunker/vuetimeline": "^0.1.17",
     "@nuxt/content": "^1.15.1",
     "@tailwindcss/typography": "^0.5.2",
+    "@tinkoff/invest-openapi-js-sdk": "github:catsaredoomed/invest-openapi-js-sdk",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
     "vue": "^2.6.14",
+    "vue-awesome-swiper": "^5.0.1",
     "vue-server-renderer": "^2.6.14",
+    "vue-slick-carousel": "^1.0.6",
     "vue-template-compiler": "^2.6.14",
     "webpack": "^4.46.0"
   },

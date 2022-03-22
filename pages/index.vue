@@ -9,17 +9,45 @@
         <div class="text-gray-600 font-semibold md:text-xl mb-20 md:mb-10 md:pb-2 drop-shadow">인력의 장 ZeroPage를 소개합니다.</div>
         <AboutZP />
 
-        <div class="text-3xl md:text-4xl text-black md:pt-20 mb-5 pt-10 md:mb-2 font-semibold">What does ZP do ?</div>
-        <div class="text-gray-600 font-semibold md:text-xl mb-20 md:mb-36 md:pb-4 drop-shadow">ZeroPage의 활동들을 소개합니다.</div>
+        <div class="text-3xl md:text-4xl text-black md:pt-20 md:mt-8 mb-5 pt-10 md:mb-2 font-semibold">What does ZP do ?</div>
+        <div class="text-gray-600 font-semibold md:text-xl mb-20 md:mb-10 md:pb-4 drop-shadow">ZeroPage의 활동들을 소개합니다.</div>
+        <!-- Latest update -->
+        <vue-timeline-update
+          :date="Date('2021-11-22')"
+          title="Test 1"
+          description="ZeroPage Portal Page"
+          thumbnail="TestImage.jpg"
+          icon="code"
+          color="black"
+        />
+
+        <!-- Another update -->
+        <vue-timeline-update
+          :date="Date('2021-11-22')"
+          title="Test 2"
+          description="ZeroPage Portal Page"
+          thumbnail="TestImage.jpg"
+          icon="code"
+          color="black"
+        />
+
+        <!-- Yet another update -->
+        <vue-timeline-update
+          :date="Date('2021-11-22')"
+          title="Test 3"
+          description="ZeroPage Portal Page"
+          thumbnail="TestImage.jpg"
+          icon="code"
+          color="black"
+          is-last
+        />
     </div>
     <Footer />
   </div>
 </template>
 
 <script>
-export default {
-  
-}
+
 </script>
 
 <style scoped>
