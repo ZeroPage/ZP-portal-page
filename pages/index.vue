@@ -19,6 +19,7 @@
           thumbnail="TestImage.jpg"
           icon="code"
           color="black"
+          theme="light"
         />
 
         <!-- Another update -->
@@ -29,6 +30,7 @@
           thumbnail="TestImage.jpg"
           icon="code"
           color="black"
+          theme="light"
         />
 
         <!-- Yet another update -->
@@ -39,6 +41,7 @@
           thumbnail="TestImage.jpg"
           icon="code"
           color="black"
+          theme="light"
           is-last
         />
     </div>
