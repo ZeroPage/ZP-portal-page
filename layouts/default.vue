@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="rel">
         <Warning />
         <!-- <Header /> -->
         <Nuxt />
@@ -12,5 +12,7 @@
 </script>
 
 <style scoped>
-
+.rel{
+    position: relative;
+  }
 </style>
