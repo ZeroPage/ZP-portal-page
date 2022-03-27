@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'zp-page',
+    title: 'zp-portal',
     htmlAttrs: {
       lang: 'en'
     },
