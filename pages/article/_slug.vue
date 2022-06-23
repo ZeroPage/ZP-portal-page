@@ -1,16 +1,15 @@
 <template>
-<div class="w-full bg-gray-50">
-    <SlugHeader />
+<div class="w-full bg-zinc-900">
     <div class="related max-w-5xl mx-auto pt-28 pb-12 md:pb-24 md:pt-44">
         
         <div class="max-w-3xl mx-auto">
-            <p class="text-base md:text-xl text-gray-400 text-center mb-2">
+            <p class="text-base md:text-xl text-white text-center mb-2">
                 <nuxt-link :to="{path: `/${article.category}`}" class="hover:underline">
                     {{article.category}}
                 </nuxt-link>
             </p>
-            <p class="custom-text leading-snug md:leading-normal px-5 md:px-0 mb-2 text-2xl md:text-4xl text-center text-gray-800 title font-semibold">{{article.title}}</p>
-            <p class="text-base md:text-xl text-gray-500 text-center mb-16">
+            <p class="custom-text leading-snug md:leading-normal px-5 md:px-0 mb-2 text-2xl md:text-4xl text-center text-white title font-semibold">{{article.title}}</p>
+            <p class="text-base md:text-xl text-white text-center mb-16">
                 by ZeroPage
             </p>
         </div>

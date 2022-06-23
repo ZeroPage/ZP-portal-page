@@ -1,11 +1,10 @@
 <template>
-    <div class="w-full z-0 bg-img section h-content" style="background-image: url(bg-img3.jpg)">
-        <Header/>
+    <div class="w-full z-0 bg-zinc-900 section h-content" >
         <div class="pt-20 md:pt-15 pb-3 md:pb-10 max-w-7xl mx-auto px-6">
-            <div class="pb-6 text-3xl md:text-5xl font-semibold text-gray-800">
+            <div class="pb-6 text-3xl md:text-5xl font-semibold text-white">
                 Wiki
             </div>
-            <div class="font-normal text-base md:text-xl text-gray-600">
+            <div class="font-normal text-base md:text-xl text-white">
                 ZeroPage Wiki의 사용법에 대한 글이에요 
             </div>
         </div>
@@ -15,20 +14,19 @@
         <div class="max-w-7xl grid grid-cols-1 colspan mt-5 md:mt-8 pb-14 md:pb-24 mx-auto px-6">
             <div class="group" v-for="article of articles" :key="article">
                 <nuxt-link :to='`article/${article.slug}`'>
-                    <div class="article-inner flex items-center border-t py-5 md:py-8 border-gray-600">
+                    <div class="article-inner flex items-center border-t py-5 md:py-8 border-zinc-200">
                   <div class="sbox hidden md:block group-hover:shadow-lg transform group-hover:scale-105 transition group-hover:duration-500">
                     <img class="profile" :src="require(`~/assets/resources/${article.img}`)" alt="">
                   </div>
                   <div class="px-0 md:px-4 md:pl-9">
-                      <p class="mb-1 md:mb-1.5 text-sm md:text-sm text-blue-900">{{article.category}} · ZeroPage</p>
-                      <h2 class="mb-1 md:mb-1.5 text-lg md:text-xl font-semibold  text-gray-800 transition group-hover:text-blue-500 group-hover:duration-500">{{ article.title }}</h2>
-                      <p class=" text-sm md:text-base text-gray-600 custom-text">{{article.description}}</p>
+                      <p class="mb-1 md:mb-1.5 text-sm md:text-sm text-emerald-500">{{article.category}} · ZeroPage</p>
+                      <h2 class="mb-1 md:mb-1.5 text-lg md:text-xl font-semibold  text-white transition group-hover:text-emerald-400 group-hover:duration-500">{{ article.title }}</h2>
+                      <p class=" text-sm md:text-base text-white custom-text">{{article.description}}</p>
                   </div>
                 </div>
                 </nuxt-link>
             </div>
         </div>
-        <Footer />
     </div>
 
 </template>
