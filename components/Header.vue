@@ -5,7 +5,7 @@
             
             <div>
                 <ul class="flex space-x-2 items-center">
-                    <li class="hidden py-1.5 px-2.5 rounded-lg md:block text-white lgtoxl hover:text-blue-400 transition hover:duration-300 font-normal">
+                    <li class="hidden py-1.5 px-2.5 rounded-lg md:block text-blue-500 lgtoxl border-2 border-blue-500 hover:border-blue-100 hover:text-blue-100 transition hover:duration-300 font-normal">
                         <nuxt-link :to="{path: '/devils'}" replace>Devils Camp</nuxt-link>
                     </li>
                     <li class="hidden py-1.5 px-2.5 rounded-lg md:block text-white lgtoxl hover:text-yellow-300 transition hover:duration-300 font-normal">
