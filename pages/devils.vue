@@ -6,9 +6,9 @@
             <span class="gradient-one pt-8 font-extrabold tracking-tight ">Share Your Knowledge</span>
             <div class="pt-8 font-medium text-white text-xl md:text-3xl">올해는 대면으로 찾아갑니다!</div>
         </div>
-        <div class="max-w-7xl mx-auto text-2xl  md:text-3xl text-white font-light px-6 md:px-10 text-center ">
+        <!-- <div class="max-w-7xl mx-auto text-2xl  md:text-3xl text-white font-light px-6 md:px-10 text-center ">
             <a href="https://wiki.zeropage.org/wiki.php/%EB%8D%B0%EB%B8%94%EC%8A%A4%EC%BA%A0%ED%94%842022" class="px-2 rounded-lg border-2 border-white hover:border-[#e251ef] hover:text-[#e251ef]" target="blank">More</a>
-        </div>
+        </div> -->
         <div class="max-w-7xl mx-auto text-3xl md:text-4xl pt-20 mt-20 text-white mb-10 md:mb-14 font-medium px-6 md:px-10 text-center">About</div>
         <div class="max-w-7xl mx-auto px-6 md:px-10">
             <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-6 pb-16 md:pb-24">
