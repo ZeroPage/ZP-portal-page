@@ -15,6 +15,7 @@
     "@tinkoff/invest-openapi-js-sdk": "github:catsaredoomed/invest-openapi-js-sdk",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
+    "tw-elements": "^1.0.0-alpha12",
     "vue": "^2.6.14",
     "vue-awesome-swiper": "^5.0.1",
     "vue-server-renderer": "^2.6.14",
@@ -24,8 +25,8 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.2.1",
-    "autoprefixer": "^10.4.4",
-    "postcss": "^8.4.12",
-    "tailwindcss": "^3.0.23"
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.4"
   }
 }
