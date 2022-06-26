@@ -7,12 +7,17 @@
             <div class="pt-8 font-medium text-white text-xl md:text-3xl">올해는 대면으로 찾아갑니다!</div>
         </div>
 
-        <div class="max-w-5xl mx-auto pt-20 pb-14 px-6 md:px-10">
-            <div class="text-center text-3xl font-medium text-white pb-6">Conferences</div>
-            <Accordian class="px-4 md:px-4" />
+        <div class="max-w-7xl mx-auto pt-10 pb-14 px-6 md:px-10 ">
+            <div class="max-w-7xl mx-auto text-3xl md:text-4xl pt-16 mt-20 text-white mb-10 md:mb-14 font-medium px-6 md:px-10 text-center">Conference</div>
+            <div class="mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 place-content-center gap-x-8 gap-y-6 pb-16 md:pb-24 ">
+                <Card1 class="" />
+                <Card2 class="" />
+                <Card3 class="" />
+            </div>
+            
         </div>
 
-        <div class="max-w-7xl mx-auto text-3xl md:text-4xl pt-16 mt-20 text-white mb-10 md:mb-14 font-medium px-6 md:px-10 text-center">About</div>
+        <div class="max-w-7xl mx-auto text-3xl md:text-4xl pt-16 mt-10 text-white mb-10 md:mb-14 font-medium px-6 md:px-10 text-center">About</div>
         <div class="max-w-7xl mx-auto px-6 md:px-10">
             <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-6 pb-16 md:pb-24">
                 <div class="h-content">
@@ -32,7 +37,7 @@
 
         
 
-        <div class="max-w-7xl mx-auto text-2xl  md:text-3xl text-white font-medium px-6 md:px-10 text-center ">
+        <div class="max-w-7xl mx-auto text-2xl pt-20 pb-20 md:text-3xl text-white font-medium px-6 md:px-10 text-center ">
             <a href="https://wiki.zeropage.org/wiki.php/%EB%8D%B0%EB%B8%94%EC%8A%A4%EC%BA%A0%ED%94%842022" class="hover:underline" target="blank">더 많은 정보가 궁금하신가요?</a>
         </div>
         
