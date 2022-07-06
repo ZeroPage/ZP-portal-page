@@ -3,33 +3,24 @@
         <h5 class="mb-3 text-base font-semibold text-white lg:text-xl ">
             DAY 2
         </h5>
-        <p class="text-sm font-normal text-zinc-300 ">7월 15일 18:00 ~ 04:00</p>
+        <p class="text-sm font-normal text-zinc-300 ">7월 15일 19:00 ~ 24:00</p>
         <ul class="my-4 space-y-3">
             <li>
                 <a href="#" class="flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">First Talk</span>
+                    <span class="flex-1 ml-3 whitespace-nowrap">양운천님 | </span>
                 </a>
             </li>
             <li>
                 <a href="#" class="flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">Second Talk</span>
+                    <span class="flex-1 ml-3 whitespace-nowrap">이승찬님 | </span>
                 </a>
             </li>
             <li>
                 <a href="#" class="flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow ">  
-                    <span class="flex-1 ml-3 whitespace-nowrap">Third Talk</span>
+                    <span class="flex-1 ml-3 whitespace-nowrap">권준혁님 | </span>
                 </a>
             </li>
-            <li>
-                <a href="#" class="flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">Fourth Talk</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">Fifth Talk</span>
-                </a>
-            </li>
+            
         </ul>
         <div>
             <a href="#" class="inline-flex items-center text-xs font-normal text-gray-500 hover:underline dark:text-gray-400">

@@ -3,33 +3,19 @@
         <h5 class="mb-3 text-base font-semibold text-white lg:text-xl ">
             DAY 1
         </h5>
-        <p class="text-sm font-normal text-zinc-300 ">7월 14일 14:00 ~ 22:00</p>
+        <p class="text-sm font-normal text-zinc-300 ">7월 14일 17:00 ~ 22:00</p>
         <ul class="my-4 space-y-3">
             <li>
                 <a href="#" class="flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">First Talk</span>
+                    <span class="flex-1 ml-3 whitespace-nowrap">김도엽님 | </span>
                 </a>
             </li>
             <li>
                 <a href="#" class="flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">Second Talk</span>
+                    <span class="flex-1 ml-3 whitespace-nowrap">정진경님 | </span>
                 </a>
             </li>
-            <li>
-                <a href="#" class="flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow ">  
-                    <span class="flex-1 ml-3 whitespace-nowrap">Third Talk</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">Fourth Talk</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">Fifth Talk</span>
-                </a>
-            </li>
+            
         </ul>
         <div>
             <a href="#" class="inline-flex items-center text-xs font-normal text-gray-500 hover:underline dark:text-gray-400">
