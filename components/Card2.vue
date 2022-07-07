@@ -7,7 +7,7 @@
         <ul class="my-4 space-y-3">
             <li>
                 <a href="#" class="tracking-tight flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">양운천님 | IBM 오픈 소스 양자 컴퓨팅...</span>
+                    <div class="flex-1 ml-3 whitespace-nowrap">양운천님 | IBM 오픈 소스 양자 컴퓨팅...</div>
                 </a>
             </li>
             <li>
