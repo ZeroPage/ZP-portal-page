@@ -6,17 +6,17 @@
         <p class="text-sm font-normal text-zinc-300 ">7월 15일 19:00 ~ 24:00</p>
         <ul class="my-4 space-y-3">
             <li>
-                <a href="#" class="tracking-tight flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
+                <a href="#" class="flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
                     <div class="flex-1 ml-3 whitespace-nowrap">양운천님 | IBM 오픈 소스 양자 컴퓨팅...</div>
                 </a>
             </li>
             <li>
-                <a href="#" class="tracking-tight flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
+                <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
                     <span class="flex-1 ml-3 whitespace-nowrap">이승찬님 | 스타트업 빌런 다루기</span>
                 </a>
             </li>
             <li>
-                <a href="#" class="tracking-tight flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow ">  
+                <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow ">  
                     <span class="flex-1 ml-3 whitespace-nowrap">권준혁님 | 너는 전혀 'kotlin'하고있지 않아</span>
                 </a>
             </li>

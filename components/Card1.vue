@@ -6,18 +6,18 @@
         <p class="text-sm font-normal text-zinc-300 ">7월 14일 17:00 ~ 22:00</p>
         <ul class=" my-4 space-y-3">
             <li>
-                <a href="#" class="tracking-tight flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
+                <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
                     <span class="flex-1 ml-3 whitespace-nowrap">김도엽님 | 개회사</span>
                 </a>
             </li>
             <li>
-                <a href="#" class="tracking-tight flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
+                <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
                     <span class="flex-1 ml-3 whitespace-nowrap">김도엽님 | RSA를 공격하는 방법</span>
                 </a>
             </li>
             <li>
-                <a href="#" class="tracking-tight flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">정진경님 | 스타트업, 대박날 수 있나요?</span>
+                <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
+                    <span class="flex-1 ml-3 whitespace-nowrap">정진경님 | 스타트업하면 대박날 수 있나요?</span>
                 </a>
             </li>
             

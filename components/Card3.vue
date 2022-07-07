@@ -6,17 +6,17 @@
         <p class="text-sm font-normal text-zinc-300 ">7월 16일 19:00 ~ 24:00</p>
         <ul class="my-4 space-y-3">
             <li>
-                <a href="#" class="tracking-tight flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
+                <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
                     <span class="flex-1 ml-3 whitespace-nowrap">옥찬호님 | Rust 게임 프로그래밍</span>
                 </a>
             </li>
             <li>
-                <a href="#" class="tracking-tight flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
+                <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
                     <span class="flex-1 ml-3 whitespace-nowrap">박인서님 | Nest.js</span>
                 </a>
             </li>
             <li>
-                <a href="#" class="tracking-tight flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
+                <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
                     <span class="flex-1 ml-3 whitespace-nowrap">방석현님 | 게임 경제학</span>
                 </a>
             </li>
