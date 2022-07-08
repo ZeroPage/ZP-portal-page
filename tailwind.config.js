@@ -4,7 +4,9 @@ module.exports = {
   theme: {
   },
   variants: {
-    extend: {},
+    extend: {
+      
+    },
   },
   content: ['./src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js'],
   plugins: [
