@@ -12,7 +12,7 @@
 
         <div class="max-w-7xl mx-auto text-3xl md:text-4xl pt-16 mt-10 text-white mb-10 md:mb-14 font-medium px-6 md:px-10 text-center">About</div>
         <div class="max-w-7xl mx-auto px-6 md:px-10">
-            <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-6 pb-16 md:pb-24 px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-6 pb-16 md:pb-24 px-8 ">
                 <div class="h-content">
                     <div class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3">Who</div>
                     <div class="text-base md:text-lg text-slate-400 keep-all">ZeroPage 회원 뿐만 아니라 중앙대학교 소프트웨어학부 모든 재학생과 ZeroPage 출신 선배님들은 모두 참석 가능합니다! </div>
@@ -30,7 +30,7 @@
 
         <div class="max-w-7xl mx-auto pb-14 px-6 md:px-10 ">
             <div class="max-w-7xl mx-auto text-3xl md:text-4xl pt-10 mt-20 text-white mb-10 md:mb-14 font-medium px-6 md:px-10 text-center">Conference</div>
-            <div class="mx-auto grid sm:grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-6 pb-16 md:pb-24 ">
+            <div class="mx-auto grid sm:grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-6 pb-16 md:pb-24 items-start">
                 <Card1 class="mx-auto w-100 md:w-100" />
                 <Card2 class="mx-auto w-100 md:w-100" />
                 <Card3 class="mx-auto w-100 md:w-100" />
