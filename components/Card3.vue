@@ -3,7 +3,7 @@
         <h5 class="mb-3 text-base font-semibold text-white lg:text-xl ">
             DAY 3
         </h5>
-        <p class="text-sm font-normal text-zinc-300 ">7월 16일 19:00 ~ 24:00</p>
+        <p class="text-sm font-normal text-zinc-300 ">7월 16일 19:00 ~ 22:00</p>
         <ul class="my-4 space-y-3">
             <li>
                 <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
@@ -15,11 +15,7 @@
                     <span class="flex-1 ml-3 whitespace-nowrap">박인서님 | Nest.js</span>
                 </a>
             </li>
-            <li>
-                <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">방석현님 | 게임 경제학</span>
-                </a>
-            </li>
+            
             
         </ul>
         <div>
