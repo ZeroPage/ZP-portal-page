@@ -88,7 +88,7 @@
 <style scoped>
 .accordion-button:not(.collapsed) {
     color: #ffffff;
-    background-color: #1F2937;
+    background-color: #18181B; 
     box-shadow: inset 0 -1px 0 #e5e7eb;
 }
 </style>
