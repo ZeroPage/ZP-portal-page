@@ -1,8 +1,9 @@
 <template>
     <div class="flex items-start">
-        <ul class="nav nav-tabs flex flex-col flex-wrap list-none border-b-0 pl-0 mr-4" id="tabs-tabVertical" role="tablist">
+        <ul class="nav nav-tabs flex flex-col flex-wrap list-none border-b-0 pl-0 mr-4 " id="tabs-tabVertical" role="tablist">
             <li class="nav-item flex-grow text-center " role="presentation">
                 <a href="#tabs-1" class="
+                    w-32
                     nav-link
                     block
                     font-medium
