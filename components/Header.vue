@@ -5,9 +5,10 @@
             
             <div>
                 <ul class="flex space-x-2 items-center">
-                    <li class="hidden py-1.5 px-2.5 rounded-lg md:block text-blue-500 lgtoxl border-2 border-blue-500 hover:border-blue-100 hover:text-blue-100 transition hover:duration-300 font-normal">
+                    <!-- 데블스캠프 -->
+                    <!-- <li class="hidden py-1.5 px-2.5 rounded-lg md:block text-blue-500 lgtoxl border-2 border-blue-500 hover:border-blue-100 hover:text-blue-100 transition hover:duration-300 font-normal">
                         <nuxt-link :to="{path: '/devils'}" replace>Devils Camp</nuxt-link>
-                    </li>
+                    </li> -->
                     <li class="hidden py-1.5 px-2.5 rounded-lg md:block text-white lgtoxl hover:text-yellow-300 transition hover:duration-300 font-normal">
                         <a href="https://wiki.zeropage.org/wiki.php" target="blank">Wiki</a>
                     </li>
@@ -52,7 +53,7 @@
                 </div>
 
                 <ul class="mt-4">
-                    <li><nuxt-link :to="{path: '/devils'}" replace @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Devils Camp</nuxt-link></li>
+                    <!-- <li><nuxt-link :to="{path: '/devils'}" replace @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Devils Camp</nuxt-link></li> -->
                     <li><a href="https://wiki.zeropage.org/wiki.php" @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Wiki</a></li>
                     <li><a href="https://zeropage.org/" @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Main</a></li>
                     <li><nuxt-link :to="{path: '/manual'}" replace @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Manual</nuxt-link></li>
