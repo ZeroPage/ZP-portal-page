@@ -18,6 +18,9 @@
                     <li class="hidden py-1.5 px-2.5 rounded-lg md:block text-white lgtoxl hover:text-orange-400 transition hover:duration-300 font-normal">
                         <nuxt-link :to="{path: '/manual'}" replace>Manual</nuxt-link>
                     </li>
+                    <li class="hidden py-1.5 px-2.5 rounded-lg md:block text-white lgtoxl hover:text-blue-400 transition hover:duration-300 font-normal">
+                        <nuxt-link :to="{path: '/oms'}" replace>OMS</nuxt-link>
+                    </li>
                 </ul>
             </div>
 
@@ -57,6 +60,7 @@
                     <li><a href="https://wiki.zeropage.org/wiki.php" @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Wiki</a></li>
                     <li><a href="https://zeropage.org/" @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Main</a></li>
                     <li><nuxt-link :to="{path: '/manual'}" replace @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Manual</nuxt-link></li>
+                    <li><nuxt-link :to="{path: '/oms'}" replace @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">OMS</nuxt-link></li>
                 </ul>
 
             </aside>
