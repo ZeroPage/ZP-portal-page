@@ -15,7 +15,7 @@
                 <nuxt-link :to='`oms/${oms.slug}`'>
                     <div class="article-inner flex items-center my-2 md:py-4 bg-gray-800 rounded-3xl">
                         <div class="px-0 md:px-6 md:pl-9 md:py-0  pl-8 py-4">
-                            <p class="mb-1 md:mb-1.5 text-sm md:text-sm text-blue-400 ">{{oms.date}}</p>
+                            <p class="mb-1 md:mb-1.5 text-sm md:text-sm text-blue-400 font-semibold">{{oms.date}}</p>
                             <h2 class="mb-1 md:mb-1.5 text-lg md:text-xl font-semibold  text-white transition group-hover:text-blue-300 group-hover:duration-500">{{ oms.title }}</h2>
                             <p class="mb-1 md:mb-1.5 text-sm md:text-sm text-white">{{oms.speaker}} · ZeroPage</p>
                         </div>

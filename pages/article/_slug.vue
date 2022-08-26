@@ -14,7 +14,25 @@
             </p>
         </div>
 
-        <nuxt-content :document="article" class="prose max-w-5xl custom-text px-6"/>
+        <nuxt-content :document="article" 
+        class=
+        "
+        prose 
+        max-w-5xl 
+        custom-text 
+        px-6 
+        text-white 
+        prose-headings:text-blue-300 
+        prose-li:text-white
+        prose-p:text-white
+        prose-a:text-white
+        prose-blockquote:text-white
+        prose-figure:text-white
+        prose-figcaption:text-white
+        prose-strong:text-blue-200
+        prose-em:text-white
+        
+        "/>
 
 
         <Prevnext :prev="prev" :next="next" />

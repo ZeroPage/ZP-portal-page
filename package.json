@@ -11,7 +11,6 @@
   "dependencies": {
     "@growthbunker/vuetimeline": "^0.1.17",
     "@nuxt/content": "^1.15.1",
-    "@tailwindcss/typography": "^0.5.2",
     "@tinkoff/invest-openapi-js-sdk": "github:catsaredoomed/invest-openapi-js-sdk",
     "aos": "^2.3.4",
     "core-js": "^3.19.3",
@@ -26,6 +25,7 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.2.1",
+    "@tailwindcss/typography": "^0.5.4",
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.4"
