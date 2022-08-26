@@ -10,15 +10,16 @@
             </div>
         </div>
 
-        <div class="max-w-7xl grid grid-cols-1 colspan mt-5 md:mt-8 pb-14 md:pb-24 mx-auto px-6">
-            <div class="group" v-for="oms of omss" :key="oms">
+        <div class="max-w-7xl grid grid-cols-1 colspan mt-5 md:mt-8 pb-10 md:pb-24 mx-auto px-6">
+            <div class="group " v-for="oms of omss" :key="oms">
                 <nuxt-link :to='`oms/${oms.slug}`'>
-                    <div class="article-inner flex items-center border-t py-5 md:py-8 border-zinc-200">
-                        <div class="px-0 md:px-4 md:pl-9">
+                    <div class="article-inner flex items-center my-2 md:py-4 bg-gray-800 rounded-3xl">
+                        <div class="px-0 md:px-6 md:pl-9 md:py-0  pl-8 py-4">
+                            <p class="mb-1 md:mb-1.5 text-sm md:text-sm text-blue-400 ">{{oms.date}}</p>
                             <h2 class="mb-1 md:mb-1.5 text-lg md:text-xl font-semibold  text-white transition group-hover:text-blue-300 group-hover:duration-500">{{ oms.title }}</h2>
-                            <p class="mb-1 md:mb-1.5 text-sm md:text-sm text-blue-400">{{oms.speaker}} · ZeroPage</p>
+                            <p class="mb-1 md:mb-1.5 text-sm md:text-sm text-white">{{oms.speaker}} · ZeroPage</p>
                         </div>
-                </div>
+                    </div>
                 </nuxt-link>
             </div>
         </div>
