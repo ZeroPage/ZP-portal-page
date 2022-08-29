@@ -3,7 +3,7 @@
         <div class="max-w-screen-2xl px-3 md:px-7 py-3 md:py-9 border-gray-400 h-16 mx-auto flex items-center justify-between">
             <nuxt-link to='/'> <HeaderLogo class="drop-shadow-sm pl-2" /> </nuxt-link>
             
-            <div>
+            <div class="" >
                 <ul class="flex space-x-2 items-center">
                     <!-- 데블스캠프 -->
                     <!-- <li class="hidden py-1.5 px-2.5 rounded-lg md:block text-blue-500 lgtoxl border-2 border-blue-500 hover:border-blue-100 hover:text-blue-100 transition hover:duration-300 font-normal">
@@ -19,8 +19,9 @@
                         <nuxt-link :to="{path: '/manual'}" replace>Manual</nuxt-link>
                     </li>
                     <li class="hidden py-1.5 px-2.5 rounded-lg md:block text-white lgtoxl hover:text-blue-400 transition hover:duration-300 font-normal">
-                        <nuxt-link :to="{path: '/oms'}" replace>OMS</nuxt-link>
+                        <nuxt-link :to="{path: '/event'}" replace>Event</nuxt-link>
                     </li>
+                    
                 </ul>
             </div>
 
@@ -60,7 +61,7 @@
                     <li><a href="https://wiki.zeropage.org/wiki.php" @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Wiki</a></li>
                     <li><a href="https://zeropage.org/" @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Main</a></li>
                     <li><nuxt-link :to="{path: '/manual'}" replace @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Manual</nuxt-link></li>
-                    <li><nuxt-link :to="{path: '/oms'}" replace @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">OMS</nuxt-link></li>
+                    <li><nuxt-link :to="{path: '/event'}" replace @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Event</nuxt-link></li>
                 </ul>
 
             </aside>
