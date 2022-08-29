@@ -16,7 +16,7 @@
                 <nuxt-link :to='`article/${article.slug}`'>
                     <div class="article-inner flex items-center border-t py-5 md:py-8 border-zinc-200">
                   <div class="sbox hidden md:block group-hover:shadow-lg transform group-hover:scale-105 transition group-hover:duration-500">
-                    <img class="profile" :src="require(`~/assets/resources/${article.img}`)" alt="">
+                    <img  class="profile" :src="require(`~/assets/resources/${article.img}`)" alt=""/>
                   </div>
                   <div class="px-0 md:px-4 md:pl-9">
                       <p class="mb-1 md:mb-1.5 text-sm md:text-sm text-emerald-500">{{article.category}} · ZeroPage</p>

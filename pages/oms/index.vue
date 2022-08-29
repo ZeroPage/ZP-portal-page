@@ -6,7 +6,7 @@
                 OMS
             </div>
             <div class="font-normal text-base md:text-xl text-slate-400">
-                ZP의 매주 수요일 정모 기록을 볼 수 있어요!
+                ZP의 매주 수요일 OMS의 발표자료를 볼 수 있어요!
             </div>
         </div>
 

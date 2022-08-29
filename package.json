@@ -25,6 +25,7 @@
     "webpack": "^4.46.0"
   },
   "devDependencies": {
+    "@nuxt/image": "^0.7.1",
     "@nuxtjs/tailwindcss": "^4.2.1",
     "@tailwindcss/typography": "^0.5.4",
     "autoprefixer": "^10.4.7",

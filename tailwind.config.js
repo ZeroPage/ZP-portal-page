@@ -1,6 +1,4 @@
 module.exports = {
-  
-  
   theme: {
   },
   variants: {

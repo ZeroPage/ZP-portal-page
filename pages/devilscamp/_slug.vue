@@ -10,7 +10,7 @@
                 by {{devilscamp.speaker}}
             </div>
 
-            <div class="my-10 grid justify-items-stretch">
+            <div class="my-10 grid ">
                 <iframe class="rounded-lg w-full md:w-content h-60 sm:h-72 md:h-screen" :src="`${devilscamp.youtube}`" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>

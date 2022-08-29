@@ -89,12 +89,14 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    "@nuxt/image",
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    "@nuxt/image",
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
