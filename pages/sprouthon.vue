@@ -32,7 +32,7 @@
                   <p class=" text-sm md:text-base text-white custom-text">전영은</p>
                 </div>
                 <div class="sbox">
-                  <img  class="profile" :src="require(`~/assets/resources/sprouthon/03.jpg`)" alt="">
+                  <img  class="profile" :src="require(`~/assets/resources/sprouthon/02.jpg`)" alt="">
                 </div>
               </div>
             </div>
@@ -48,10 +48,11 @@
             </div>
 
             <div class="md:hidden mt-4">
-              <img :src="require(`~/assets/resources/sprouthon/03.jpg`)" class="rounded-t-xl border-none rounded-b-xl"/>
+              <img :src="require(`~/assets/resources/sprouthon/02.jpg`)" class="rounded-t-xl border-none rounded-b-xl"/>
+              
             </div>
             <div class="md:hidden text-center px-4 py-6">
-              <a class="font-general-semibold text-xl text-white font-semibold mb-2 hover:text-blue-400" href="https://github.com/Junyoungeun/GrowingBud" target="blank">카페 키오스크 개발</a>
+              <a class="font-general-semibold text-xl text-white font-semibold mb-2 hover:text-blue-400" href="https://github.com/Junyoungeun/GrowingBud" target="blank">새싹 키우기 (GrowingBud)</a>
               <p class=" text-sm md:text-base text-white custom-text">전영은</p>
             </div>
 
