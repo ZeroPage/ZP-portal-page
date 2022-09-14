@@ -10,10 +10,10 @@
             </div>
         </div>
 
-        <div data-aos="fade-left" class="max-w-7xl grid grid-cols-1 colspan mt-5 md:mt-8 pb-10 md:pb-24 mx-auto px-6">
+        <div  class="max-w-7xl grid grid-cols-1 colspan mt-5 md:mt-8 pb-10 md:pb-24 mx-auto px-6">
             <div class="group " v-for="oms of omss" :key="oms">
                 <nuxt-link :to='`oms/${oms.slug}`'>
-                    <div class="article-inner flex items-center my-2 md:py-4 bg-gray-800 rounded-3xl">
+                    <div class="article-inner flex items-center my-2 md:py-4 bg-gray-800 rounded-3xl" data-aos="fade-up">
                         <div class="px-0 md:px-6 md:pl-9 md:py-0  pl-8 py-4">
                             <p class="mb-1 md:mb-1.5 text-sm md:text-sm text-blue-400 font-semibold">{{oms.date}}</p>
                             <h2 class="mb-1 md:mb-1.5 text-lg md:text-xl font-semibold  text-white transition group-hover:text-blue-300 group-hover:duration-500">{{ oms.title }}</h2>
