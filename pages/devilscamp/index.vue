@@ -34,7 +34,7 @@
 export default {
   async asyncData({ $content, params }) {
     const devilscamps = await $content('devilscamp', params.slug)
-      .sortBy('title')
+      .sortBy('order')
       .fetch();
     return {
       devilscamps

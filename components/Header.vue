@@ -52,10 +52,6 @@
                 </button>
                 </div>
 
-                <div @click="isOpen = false" class="flex w-full pt-12 pb-8 items-center justify-center">
-                    <HeaderLogo class="h-6" />
-                </div>
-
                 <ul class="mt-4">
                     <!-- <li><nuxt-link :to="{path: '/devils'}" replace @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Devils Camp</nuxt-link></li> -->
                     <li><a href="https://wiki.zeropage.org/wiki.php" @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Wiki</a></li>
@@ -63,6 +59,10 @@
                     <li><nuxt-link :to="{path: '/manual'}" replace @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Manual</nuxt-link></li>
                     <li><nuxt-link :to="{path: '/event'}" replace @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Event</nuxt-link></li>
                 </ul>
+
+                <div @click="isOpen = false" class="flex w-full pt-12 pb-8 items-center justify-center">
+                    <HeaderLogo class="h-6" />
+                </div>
 
             </aside>
         </div>
