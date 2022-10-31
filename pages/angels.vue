@@ -2,7 +2,7 @@
 <template>
     <div class="w-full z-0 bg-zinc-900 section h-content" >
         <div class="pt-16 md:pt-40 pb-8 md:pb-20 max-w-7xl mx-auto text-6xl md:text-8xl text-white text-center">
-            <div class="opacity-70 text-2xl  md:text-5xl font-semibold md:font-bold tracking-tight pb-1 md:pb-2">ZeroPage Angels Camp 2022</div>
+            <div class="opacity-70 text-2xl  md:text-5xl font-semibold md:font-bold tracking-tight pb-1 md:pb-6">ZeroPage Angels Camp 2022</div>
             <vue-typer
                 :text='[
                 "Do whatever you want",
@@ -19,13 +19,13 @@
                 erase-style='clear'
                 :erase-on-complete='false'
                 caret-animation='blink'
-                class="gradient-one pt-8 font-extrabold tracking-tight"
+                class="gradient-one md:pt-20 font-extrabold tracking-tight md:text-8xl text-4xl"
             ></vue-typer>
-            <div class="pt-8 font-medium text-white text-xl md:text-3xl ">11월 11일 19시 | 서울 마포구 동교로 156-12 2층</div>
+            <div class="pt-4 md:pt-8 font-medium text-white text-xl md:text-3xl ">11월 11일 19시 | 서울 마포구 동교로 156-12 2층</div>
 
 
         </div>
-        <div class="max-w-4xl mx-auto pb-20" style="text-align:center">
+        <div class="max-w-4xl mx-auto pb-20 pt-4" style="text-align:center">
             <a href="" target="blank" class="button1">신청하기</a>
         </div>
 
