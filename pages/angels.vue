@@ -1,10 +1,28 @@
 
 <template>
     <div class="w-full z-0 bg-zinc-900 section h-content" >
-        <div class="pt-16 md:pt-24 pb-8 md:pb-20 max-w-7xl mx-auto text-6xl md:text-8xl text-white text-center">
+        <div class="pt-16 md:pt-40 pb-8 md:pb-20 max-w-7xl mx-auto text-6xl md:text-8xl text-white text-center">
             <div class="opacity-70 text-2xl  md:text-5xl font-semibold md:font-bold tracking-tight pb-1 md:pb-2">ZeroPage Angels Camp 2022</div>
-            <span class="gradient-one pt-8 font-extrabold tracking-tight ">Do whatever you want</span>
-            <div class="pt-8 font-medium text-white text-xl md:text-3xl">올해는 대면으로 찾아갑니다!</div>
+            <vue-typer
+                :text='[
+                "Do whatever you want",
+                "ZP의 3번째 정규행사",
+                "ZP가 모여 펼치는 코딩 축제"
+                ]'
+                :repeat='Infinity'
+                :shuffle='false'
+                initial-action='typing'
+                :pre-type-delay='70'
+                :type-delay='70'
+                :pre-erase-delay='2000'
+                :erase-delay='300'
+                erase-style='clear'
+                :erase-on-complete='false'
+                caret-animation='blink'
+                class="gradient-one pt-8 font-extrabold tracking-tight"
+            ></vue-typer>
+            <div class="pt-8 font-medium text-white text-xl md:text-3xl ">11월 11일 19시 | 서울 마포구 동교로 156-12 2층</div>
+
 
         </div>
         <div class="max-w-4xl mx-auto pb-20" style="text-align:center">
@@ -22,7 +40,7 @@
                 </div>
                 <div class="h-content">
                     <div class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3">When & Where</div>
-                    <div class="text-base md:text-lg text-slate-400 keep-all">곧 안내 예정입니다.</div>
+                    <div class="text-base md:text-lg text-slate-400 keep-all">11월 11일 19시 </br>서울 마포구 동교로 156-12 2층</div>
                 </div>
                 <div class="h-content">
                     <div class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3">What</div>
@@ -42,7 +60,7 @@
         </div> -->
 
         <div class="max-w-7xl mx-auto text-2xl pt-20 pb-20 md:text-3xl text-white font-medium px-6 md:px-10 text-center ">
-            <a href="https://wiki.zeropage.org/wiki.php/AngelsCamp?action=show" class="hover:underline" target="blank">더 많은 정보가 궁금하신가요?</a>
+            <a href="https://wiki.zeropage.org/wiki.php/AngelsCamp/2022" class="hover:underline" target="blank">더 많은 정보가 궁금하신가요?</a>
         </div>
         
     </div>
@@ -91,4 +109,7 @@
   border-radius: 10px;
 }
 
+>>> .vue-typer .custom.char.selected {
+  @apply bg-blue-400 text-white;
+}
 </style>
