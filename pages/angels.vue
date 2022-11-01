@@ -26,7 +26,7 @@
 
         </div>
         <div class="max-w-4xl mx-auto pb-20 pt-4" style="text-align:center">
-            <a href="" target="blank" class="button1">신청하기</a>
+            <a href="https://forms.gle/qaNkSQjg9KNFeMdf9" target="blank" class="button1">신청하기</a>
         </div>
 
         
