@@ -3,24 +3,26 @@
     <div class="w-full z-0 bg-zinc-900 section h-content" >
         <div class="pt-16 md:pt-40 pb-8 md:pb-20 max-w-7xl mx-auto text-6xl md:text-8xl text-white text-center">
             <div class="opacity-70 text-2xl  md:text-5xl font-semibold md:font-bold tracking-tight pb-1 md:pb-6">ZeroPage Angels Camp 2022</div>
-            <vue-typer
-                :text='[
-                "Do whatever you want",
-                "ZP의 3번째 정규행사",
-                "ZP가 모여 펼치는 코딩 축제"
-                ]'
-                :repeat='Infinity'
-                :shuffle='false'
-                initial-action='typing'
-                :pre-type-delay='70'
-                :type-delay='70'
-                :pre-erase-delay='2000'
-                :erase-delay='300'
-                erase-style='clear'
-                :erase-on-complete='false'
-                caret-animation='blink'
-                class="gradient-one md:pt-20 font-extrabold tracking-tight md:text-8xl text-4xl"
-            ></vue-typer>
+            <div class="gradient-one  font-extrabold tracking-tight md:text-8xl text-4xl">
+                <vue-typer
+                    :text='[
+                    "Do whatever you want",
+                    "ZP의 3번째 정규행사",
+                    "ZP가 모여 펼치는 코딩 축제"
+                    ]'
+                    :repeat='Infinity'
+                    :shuffle='false'
+                    initial-action='typing'
+                    :pre-type-delay='70'
+                    :type-delay='70'
+                    :pre-erase-delay='2000'
+                    :erase-delay='300'
+                    erase-style='clear'
+                    :erase-on-complete='false'
+                    caret-animation='blink'
+                ></vue-typer>
+            </div>
+            
             <div class="pt-4 md:pt-8 font-medium text-white text-xl md:text-3xl ">11월 11일 19시 | 서울 마포구 동교로 156-12 2층</div>
 
 
