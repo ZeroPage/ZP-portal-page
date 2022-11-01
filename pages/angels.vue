@@ -49,15 +49,6 @@
             </div>
         </div>
 
-        <!-- <div class="max-w-7xl mx-auto pb-14 px-6 md:px-10 ">
-            <div class="max-w-7xl mx-auto text-3xl md:text-4xl pt-10 mt-20 text-white mb-10 md:mb-14 font-medium px-6 md:px-10 text-center">Conference</div>
-            <div class="mx-auto grid sm:grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-6 pb-16 md:pb-24 items-start">
-                <Card1 class="mx-auto w-100 md:w-100" />
-                <Card2 class="mx-auto w-100 md:w-100" />
-                <Card3 class="mx-auto w-100 md:w-100" />
-            </div>
-            
-        </div> -->
 
         <div class="max-w-7xl mx-auto text-2xl pt-20 pb-20 md:text-3xl text-white font-medium px-6 md:px-10 text-center ">
             <a href="https://wiki.zeropage.org/wiki.php/AngelsCamp/2022" class="hover:underline" target="blank">더 많은 정보가 궁금하신가요?</a>
