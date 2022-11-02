@@ -2,7 +2,7 @@
         
     <div class="max-w-4xl mx-auto overflow-x-auto md:px-20 px-12 relative ">
         <table class="w-full text-sm text-left rounded-xl border-white border-2">
-            <thead class="text-base bg-gray-900 text-white uppercase border-b border-white  ">
+            <thead class="text-lg bg-gray-900 text-white  border-b border-white ">
                 <tr>
                     <th scope="col" class="py-3 px-6">
                         Time
@@ -13,9 +13,9 @@
                     
                 </tr>
             </thead>
-            <tbody>
+            <tbody class="text-base">
                 <tr class="bg-gray-800 border-b ">
-                    <th scope="row" class="py-4 px-6 font-medium text-white whitespace-nowrap ">
+                    <th scope="row" class="py-4 px-6 font-medium  text-white whitespace-nowrap ">
                         20:00
                     </th>
                     <td class="py-4 px-6 text-white">
