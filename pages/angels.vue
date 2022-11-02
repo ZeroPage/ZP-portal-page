@@ -23,7 +23,7 @@
                 ></vue-typer>
             </div>
             
-            <div class="pt-4 md:pt-8 font-medium text-white text-xl md:text-3xl ">11월 11일 19시 | 서울 마포구 동교로 156-12 2층</div>
+            <div class="pt-4 md:pt-8 font-medium text-white text-xl md:text-3xl ">11월 11일 20시 | 서울 마포구 동교로 156-12 2층</div>
 
 
         </div>
@@ -42,7 +42,7 @@
                 </div>
                 <div class="h-content">
                     <div class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3">When & Where</div>
-                    <div class="text-base md:text-lg text-slate-400 keep-all">11월 11일 19시 </br>서울 마포구 동교로 156-12 2층</div>
+                    <div class="text-base md:text-lg text-slate-400 keep-all">11월 11일 20시 </br>서울 마포구 동교로 156-12 2층</div>
                 </div>
                 <div class="h-content">
                     <div class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3">What</div>
