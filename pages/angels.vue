@@ -1,9 +1,9 @@
 
 <template>
     <div class="w-full z-0 bg-zinc-900 section h-content" >
-        <div class="pt-16 md:pt-40 pb-8 md:pb-20 max-w-7xl mx-auto text-6xl md:text-8xl text-white text-center">
+        <div data-aos="zoom-in" class="pt-16 md:pt-40 pb-8 md:pb-20 max-w-7xl mx-auto text-6xl md:text-8xl text-white text-center">
             <div class="opacity-70 text-2xl  md:text-5xl font-semibold md:font-bold tracking-tight pb-1 md:pb-6">ZeroPage Angels Camp 2022</div>
-            <div class="gradient-one  font-extrabold tracking-tight md:text-8xl text-4xl">
+            <div class="gradient-one font-extrabold tracking-tight md:text-8xl text-4xl">
                 <vue-typer
                     :text='[
                     "Do whatever you want",
@@ -27,14 +27,14 @@
 
 
         </div>
-        <div class="max-w-4xl mx-auto pb-20 pt-4" style="text-align:center">
+        <div  data-aos="zoom-in" class="max-w-4xl mx-auto pb-20 pt-4" style="text-align:center">
             <a href="https://forms.gle/qaNkSQjg9KNFeMdf9" target="blank" class="button1">신청하기</a>
         </div>
 
         
 
-        <div class="max-w-7xl mx-auto text-3xl md:text-4xl pt-16 mt-10 text-white mb-10 md:mb-14 font-medium px-6 md:px-10 text-center">About</div>
-        <div class="max-w-7xl mx-auto px-6 md:px-10">
+        <div data-aos="zoom-in" class="max-w-7xl mx-auto text-3xl md:text-4xl pt-16 mt-10 text-white mb-10 md:mb-14 font-medium px-6 md:px-10 text-center">About</div>
+        <div data-aos="zoom-in" class="max-w-7xl mx-auto px-6 md:px-10">
             <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-6 pb-16 md:pb-24 px-8 ">
                 <div class="h-content">
                     <div class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3">Who</div>
@@ -46,13 +46,15 @@
                 </div>
                 <div class="h-content">
                     <div class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3">What</div>
-                    <div class="text-base md:text-lg text-slate-400 keep-all">평소에 아디이어가 떠올라서 만들었으면 좋겠다라는 생각은 했으나 바쁘다고, 혹은 어렵다고 하지 못 했던 것들을 공부하고 만드는 자리입니다. </div>
+                    <div class="text-base md:text-lg text-slate-400 keep-all">평소에 아이디어가 떠올라서 만들었으면 좋겠다라는 생각은 했으나 바쁘다고, 혹은 어렵다고 하지 못 했던 것들을 공부하고 만드는 자리입니다. </div>
                 </div>
             </div>
         </div>
 
+        <div data-aos="zoom-in" class="max-w-7xl mx-auto text-3xl md:text-4xl pt-16 mt-10 text-white mb-10 md:mb-14 font-medium px-6 md:px-10 text-center">TimeTable</div>
+        <Timetable data-aos="zoom-in" class="md:mb-20 mb-0"/>
 
-        <div class="max-w-7xl mx-auto text-2xl pt-20 pb-20 md:text-3xl text-white font-medium px-6 md:px-10 text-center ">
+        <div data-aos="zoom-in" class="max-w-7xl mx-auto text-2xl pt-20 pb-20 md:text-3xl text-white font-medium px-6 md:px-10 text-center ">
             <a href="https://wiki.zeropage.org/wiki.php/AngelsCamp/2022" class="hover:underline" target="blank">더 많은 정보가 궁금하신가요?</a>
         </div>
         
@@ -62,7 +64,12 @@
 </template>
 
 <script>
+import aosMixin from '~/mixins/aos';
 
+export default {
+  name: 'PageIndex',
+  mixins: [aosMixin],
+}
 </script>
 
 <style scoped>
