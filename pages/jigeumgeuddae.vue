@@ -8,7 +8,7 @@
                     :text='[
                     "HOPE TO BE BETTER",
                     "ZP의 4번째 정규행사",
-                    "Together, we get BETTER",
+                    "TOGETHER, we get BETTER",
                     "다같이 만드는 ZP 전통 행사",
                     ]'
                     :repeat='Infinity'
