@@ -16,6 +16,14 @@
             <tbody class="text-base">
                 <tr class="bg-gray-800 border-b ">
                     <th scope="row" class="py-4 px-6 font-medium  text-white whitespace-nowrap ">
+                        13:30 - 14:00
+                    </th>
+                    <td class="py-4 px-6 text-white">
+                        참가자 등록
+                    </td>
+                </tr>
+                <tr class="bg-gray-800 border-b ">
+                    <th scope="row" class="py-4 px-6 font-medium  text-white whitespace-nowrap ">
                         14:00 - 14:30
                     </th>
                     <td class="py-4 px-6 text-white">

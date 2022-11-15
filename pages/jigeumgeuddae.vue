@@ -25,7 +25,7 @@
             </div>
             
             <div class="pt-4 md:pt-8 font-medium text-white text-xl md:text-3xl ">중앙대학교 310관 B210호</div>
-            <div class="pt-4 md:pt-4 font-medium text-white text-xl md:text-3xl ">11월 26일 14시</div>
+            <div class="pt-4 md:pt-4 font-medium text-white text-xl md:text-3xl ">11월 26일(토) 14시</div>
 
         </div>
         <div  data-aos="zoom-in" class="max-w-4xl mx-auto pb-20 pt-4" style="text-align:center">
