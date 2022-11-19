@@ -6,9 +6,9 @@
             <div class="gradient-one pb-0 md:pb-2 font-extrabold tracking-tight md:text-8xl text-4xl">
                 <vue-typer
                     :text='[
-                    "HOPE TO BE BETTER",
-                    "ZP의 4번째 정규행사",
                     "TOGETHER, we get BETTER",
+                    "ZP의 4번째 정규행사",
+                    "모여라 ZeroPage!!",
                     "다같이 만드는 ZP 전통 행사",
                     ]'
                     :repeat='Infinity'
@@ -36,26 +36,30 @@
 
         <div data-aos="zoom-in" class="max-w-7xl mx-auto text-3xl md:text-4xl pt-16 mt-10 text-white mb-10 md:mb-14 font-medium px-6 md:px-10 text-center">About</div>
         <div data-aos="zoom-in" class="max-w-7xl mx-auto px-6 md:px-10">
-            <!-- <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-6 pb-16 md:pb-24 px-8 ">
-                <div class="h-content">
-                    <div class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3">Who</div>
-                    <div class="text-base md:text-lg text-slate-400 keep-all">ZeroPage 회원이라면 누구나 참석 가능합니다! </div>
-                </div>
-                <div class="h-content">
-                    <div class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3">When & Where</div>
-                    <div class="text-base md:text-lg text-slate-400 keep-all">11월 26일 14시 </br>중앙대학교 310호 B210호</div>
-                </div>
-                <div class="h-content">
-                    <div class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3">What</div>
-                    <div class="text-base md:text-lg text-slate-400 keep-all">평소에 아이디어가 떠올라서 만들었으면 좋겠다라는 생각은 했으나 바쁘다고, 혹은 어렵다고 하지 못 했던 것들을 공부하고 만드는 자리입니다. </div>
-                </div>
-            </div> -->
             <p class="text-base md:text-2xl leading-loose md:leading-loose text-slate-300 keep-all text-center  ">
-                "여러분의 지금이 우리의 그때보다 낫기를 바랍니다. 곧 여러분의 지금은 그때가 될 것입니다. 
-                </br>그러면 여러분이 후배의 지금을 위해 자신의 그때 이야기를 나눌 수 있길 바랍니다. 
-                </br>우리의 그때보다는 뒤에 오는 사람들의 그때가 늘 좀 더 낫기를 바랍니다. 이것이 지금 우리의 작은 바람입니다."
+                "여러분의 지금이 우리의 그때보다 낫기를 바랍니다. 
+                </br>곧 여러분의 지금은 그때가 될 것입니다." 
+                </br>
+                </br>"여러분이 후배의 지금을 위해 자신의 그때 이야기를 나눌 수 있길 바랍니다. 
+                </br>우리의 그때보다는 그대들의 그때가 늘 좀 더 낫기를 바랍니다."
             </p>
         </div>
+
+        <!-- <div data-aos="zoom-in" class="max-w-7xl mx-auto text-3xl md:text-4xl pt-16 mt-10 text-white mb-10 md:mb-14 font-medium px-6 md:px-10 text-center">Info</div>
+        <div data-aos="zoom-in" class="max-w-7xl mx-auto px-6 md:px-10">
+            <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6 pb-16 md:pb-24 px-8 text-center">
+                <div class="h-content">
+                    <div class="text-xl md:text-5xl text-slate-400 font-semibold mb-2 md:mb-3">신청</br>현황</div>
+                    
+                </div>
+                <div class="h-content">
+                    <div class="text-xl md:text-5xl text-slate-400 font-semibold mb-2 md:mb-3">34명</div>
+                    
+                </div>
+                
+            </div>
+        </div> -->
+
 
         <div data-aos="zoom-in" class="max-w-7xl mx-auto text-3xl md:text-4xl pt-16 mt-10 md:pt-20 md:mt-24 text-white mb-10 md:mb-14 font-medium px-6 md:px-10 text-center">TimeTable</div>
         <Timetablej data-aos="zoom-in" class="md:mb-20 mb-0"/>
