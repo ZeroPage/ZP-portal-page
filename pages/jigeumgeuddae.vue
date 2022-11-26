@@ -24,7 +24,7 @@
                 ></vue-typer>
             </div>
             
-            <div class="pt-4 md:pt-8 font-medium text-white text-xl md:text-3xl ">중앙대학교 310관 B210호</div>
+            <div class="pt-4 md:pt-8 font-medium text-white text-xl md:text-3xl ">중앙대학교 208관 101호</div>
             <div class="pt-4 md:pt-4 font-medium text-white text-xl md:text-3xl ">11월 26일(토) 14시</div>
 
         </div>
