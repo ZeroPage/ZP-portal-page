@@ -13,9 +13,10 @@
                     <!-- <li class="hidden py-1.5 px-2.5 rounded-lg md:block text-pink-500 lgtoxl border-2 border-pink-500 hover:border-blue-100 hover:text-blue-100 transition hover:duration-300 font-normal">
                         <nuxt-link :to="{path: '/angels'}" replace>Angels Camp</nuxt-link>
                     </li> -->
+                    <!-- 지금그때
                     <li class="hidden py-1.5 px-2.5 rounded-lg md:block text-[#953ff7] lgtoxl border-2 border-[#953ff7] hover:border-blue-100 hover:text-blue-100 transition hover:duration-300 font-normal">
                         <nuxt-link :to="{path: '/jigeumgeuddae'}" replace>지금그때</nuxt-link>
-                    </li>
+                    </li> -->
                     <li class="hidden py-1.5 px-2.5 rounded-lg md:block text-white lgtoxl hover:text-yellow-300 transition hover:duration-300 font-normal">
                         <a href="https://wiki.zeropage.org/wiki.php" target="blank">Wiki</a>
                     </li>
@@ -62,7 +63,7 @@
                 <ul class="mt-4">
                     <!-- <li><nuxt-link :to="{path: '/devils'}" replace @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Devils Camp</nuxt-link></li> -->
                     <!-- <li><nuxt-link :to="{path: '/angels'}" replace @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Angels Camp</nuxt-link></li> -->
-                    <li><nuxt-link :to="{path: '/jigeumgeuddae'}" replace @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">지금그때</nuxt-link></li>
+                    <!-- <li><nuxt-link :to="{path: '/jigeumgeuddae'}" replace @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">지금그때</nuxt-link></li> -->
                     <li><a href="https://wiki.zeropage.org/wiki.php" @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Wiki</a></li>
                     <li><a href="https://zeropage.org/" @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Main</a></li>
                     <li><nuxt-link :to="{path: '/manual'}" replace @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Manual</nuxt-link></li>
