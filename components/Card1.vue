@@ -3,23 +3,19 @@
         <h5 class="mb-3 text-base font-semibold text-white lg:text-xl ">
             DAY 1
         </h5>
-        <p class="text-sm font-normal text-zinc-300 ">7월 14일 18:00 ~ 23:00</p>
+        <p class="text-sm font-normal text-zinc-300 ">6월 30일 19:00 ~ 23:00</p>
         <ul class=" my-4 space-y-3">
             <li>
                 <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">방석현님 | 게임 경제학</span>
+                    <span class="flex-1 ml-3 whitespace-nowrap">김경민님 | Diceware와 SELinux로 시스템보안 강화하기</span>
                 </a>
             </li>
             <li>
                 <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">김도엽님 | RSA를 공격하는 방법</span>
+                    <span class="flex-1 ml-3 whitespace-nowrap">김도엽님 | OT(오리엔테이션 아님) 설명회</span>
                 </a>
             </li>
-            <li>
-                <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">정진경님 | 스타트업하면 대박날 수 있나요?</span>
-                </a>
-            </li>
+            
             
         </ul>
         <div>
