@@ -3,21 +3,26 @@
         <h5 class="mb-3 text-base font-semibold text-white lg:text-xl ">
             DAY 2
         </h5>
-        <p class="text-sm font-normal text-zinc-300 ">7월 15일 19:00 ~ 24:00</p>
+        <p class="text-sm font-normal text-zinc-300 ">7월 1일 13:00 ~ 20:00</p>
         <ul class="my-4 space-y-3">
             <li>
                 <a href="#" class="flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <div class="flex-1 ml-3 whitespace-nowrap">양운천님 | IBM 오픈 소스 양자 컴퓨팅...</div>
+                    <div class="flex-1 ml-3 whitespace-nowrap">김은솔님 | 스프링 프레임워크의 구조</div>
                 </a>
             </li>
             <li>
                 <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">이승찬님 | 스타트업 빌런 다루기</span>
+                    <span class="flex-1 ml-3 whitespace-nowrap">정우현님 | 오렌지파이 위에 커널 올려보기</span>
                 </a>
             </li>
             <li>
                 <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow ">  
-                    <span class="flex-1 ml-3 whitespace-nowrap">권준혁님 | 너는 전혀 'kotlin'하고있지 않아</span>
+                    <span class="flex-1 ml-3 whitespace-nowrap">김동욱님 | 선언적 프로그래밍 소개 (React)</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow ">  
+                    <span class="flex-1 ml-3 whitespace-nowrap">박인서님 | TypeScript 입문하기</span>
                 </a>
             </li>
             
