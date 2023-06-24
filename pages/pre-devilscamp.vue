@@ -3,7 +3,7 @@
     <div class="w-full z-0 bg-zinc-900 section h-content" >
         <div class="pt-16 md:pt-24 pb-8 md:pb-20 max-w-7xl mx-auto text-6xl md:text-8xl text-white text-center">
             <div class="opacity-70 text-2xl  md:text-5xl font-semibold md:font-bold tracking-tight pb-1 md:pb-2">ZeroPage Devils Camp 2023</div>
-            <span class="gradient-one pt-8 font-extrabold tracking-tight ">Boost Your Passion</span>
+            <span class="gradient-one pt-8 font-extrabold tracking-tight ">Ignite Your Passion</span>
             <div class="pt-8 font-medium text-white text-xl md:text-3xl">다양한 주제를 만나보아요!</div>
 
         </div>
@@ -39,7 +39,7 @@
         </div>
 
         <div class="max-w-7xl mx-auto text-2xl pt-20 pb-20 md:text-3xl text-white font-medium px-6 md:px-10 text-center ">
-            <a href="https://wiki.zeropage.org/wiki.php/%EB%8D%B0%EB%B8%94%EC%8A%A4%EC%BA%A0%ED%94%842022" class="hover:underline" target="blank">더 많은 정보가 궁금하신가요?</a>
+            <a href="https://wiki.zeropage.org/wiki.php/%EB%8D%B0%EB%B8%94%EC%8A%A4%EC%BA%A0%ED%94%842023?action=show&redirect=%EB%8D%B0%EB%B8%94%EC%8A%A4%EC%BA%A0%ED%94%842023" class="hover:underline" target="blank">더 많은 정보가 궁금하신가요?</a>
         </div>
         
     </div>
