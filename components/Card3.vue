@@ -12,7 +12,7 @@
             </li>
             <li>
                 <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">송지완님 | 자율주행, 뭔가 보여드리겠습니다</span>
+                    <span class="flex-1 ml-3 whitespace-nowrap">송치완님 | 자율주행, 뭔가 보여드리겠습니다</span>
                 </a>
             </li>
             <li>
