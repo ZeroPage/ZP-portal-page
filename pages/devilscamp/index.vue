@@ -6,10 +6,10 @@
                 Devils Camp
             </div>
             <div class="font-normal text-base md:text-xl text-slate-400 text-center">
-                올해 ZP의 데블스캠프 기록입니다.
+                2022 ZP의 데블스캠프 기록입니다.
             </div>
             <div class="font-normal text-base md:text-xl text-blue-300 text-right hover:text-blue-500 hover:underline">
-                <nuxt-link :to="{path: '/devils'}" replace>What is Devils Camp?</nuxt-link>
+                <nuxt-link :to="{path: '/pre-devilscamp'}" replace>올해의 데블스캠프를 알아보아요!</nuxt-link>
             </div>
         </div>
 
