@@ -26,8 +26,8 @@
         <div data-aos="fade-up" class="max-w-6xl mx-auto px-6" role="alert">
            
             <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-8 mb-12 md:mb-24">
-              <div class="rounded-lg h-80 md:h-96 section bg-img group" style="background-image: url(recent1.jpg)">
-                <div class="block rounded-lg w-full h-full bg-gradient-to-t from-zinc-900">
+              <div class="rounded-lg h-80 md:h-96 section bg-img group" style="background-image: url(recent1.png)">
+                <div class="block rounded-lg w-full h-full ">
                   <div class="px-6 md:px-11 py-6 md:py-10 absolute bottom-0 drop-shadow-xl text-white">
                     <div class="text-2xl md:text-3xl font-semibold keep-all">2022 엔젤스캠프</div>
                     <div class="pt-2">
@@ -37,8 +37,8 @@
                   </div>
                 </div>
               </div>
-              <div class="rounded-lg h-80 md:h-96 section bg-img " style="background-image: url(recent2.jpg)">
-                <div class="block rounded-lg w-full h-full bg-gradient-to-t from-zinc-900 group">
+              <div class="rounded-lg h-80 md:h-96 section bg-img " style="background-image: url(recent2.png)">
+                <div class="block rounded-lg w-full h-full  group">
                   <div class="px-6 md:px-11 py-6 md:py-10 absolute bottom-0 drop-shadow-xl text-white">
                     <div class="text-2xl md:text-3xl font-semibold keep-all">2022 지금그때</div>
                     <div class="pt-2">
