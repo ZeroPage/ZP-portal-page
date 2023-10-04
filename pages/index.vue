@@ -167,4 +167,7 @@ export default {
 .keep-all{
   word-break: keep-all;
 }
+.section {
+  position: relative;
+}
 </style>
