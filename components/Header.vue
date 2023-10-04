@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full z-40 bg-zinc-900 shadow-lg">
+    <div class="w-full z-40 bg-black shadow-lg">
         <div class="max-w-screen-2xl px-3 md:px-7 py-3 md:py-9 border-gray-400 h-16 mx-auto flex items-center justify-between">
             <nuxt-link to='/'> <HeaderLogo class="drop-shadow-sm pl-2" /> </nuxt-link>
             

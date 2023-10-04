@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full z-0 bg-zinc-900 section h-content" >
+    <div class="w-full z-0 bg-black section h-content" >
         <div class="pt-20 md:pt-15 pb-3 md:pb-10 max-w-7xl mx-auto px-6">
             <div class="pb-6 text-3xl md:text-5xl font-semibold text-white">
                 Wiki

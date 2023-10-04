@@ -1,6 +1,6 @@
 
 <template>
-    <div class="w-full z-0 bg-zinc-900 section h-content" >
+    <div class="w-full z-0 bg-black section h-content" >
         <div data-aos="zoom-in" class="pt-16 md:pt-40 pb-8 md:pb-20 max-w-7xl mx-auto text-6xl md:text-8xl text-white text-center">
             <div class="opacity-70 text-2xl  md:text-5xl font-semibold md:font-bold tracking-tight pb-1 md:pb-6">ZeroPage Angels Camp 2022</div>
             <div class="gradient-one font-extrabold tracking-tight md:text-8xl text-4xl">

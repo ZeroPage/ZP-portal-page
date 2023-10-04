@@ -1,5 +1,5 @@
 <template>
-    <div class="accordion " id="accordionExample">
+    <div class="accordion text-white" id="accordionExample">
         <div class="accordion-item bg-gray-800">
             <h2 class="accordion-header mb-0" id="headingOne">
                 <button class="
@@ -21,7 +21,7 @@
                     동아리 가입은 어떻게 하나요?
                 </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div id="collapseOne" class="accordion-collapse collapse show text-white" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body py-4 px-5 text-white">
                     <a class="underline" href="https://zeropage.org/">메인 사이트</a>
                     에 접속하셔서 회원가입 후 인사게시판에 '준회원 신청합니다'라는 제목으로 양식에 맞춰 글을 올리시면 회장단이 1-3일 내에 확인하고, 카카오톡 채팅방에 초대해드리고 있습니다.

@@ -1,6 +1,6 @@
 
 <template>
-    <div class="w-full z-0 bg-zinc-900 section h-content" >
+    <div class="w-full z-0 bg-black section h-content" >
         <div class="pt-16 md:pt-24 pb-8 md:pb-20 max-w-7xl mx-auto text-6xl md:text-8xl text-white text-center">
             <div class="opacity-70 text-2xl  md:text-5xl font-semibold md:font-bold tracking-tight pb-1 md:pb-2">ZeroPage DevilsCamp 2023</div>
             <span class="gradient-one pt-8 font-extrabold tracking-tight ">Ignite Your Passion</span>

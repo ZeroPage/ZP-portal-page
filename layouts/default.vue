@@ -1,7 +1,9 @@
 <template>
     <div class="rel">
+    
+
         <!-- <Warning/> -->
-        <Header />
+        <Header class="sticky top-0 "/>
         <Nuxt />
         <Footer />
     </div>
@@ -17,4 +19,5 @@
 .rel{
     position: relative;
   }
+  
 </style>
