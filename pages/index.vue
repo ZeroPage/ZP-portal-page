@@ -37,7 +37,7 @@
                   </div>
                 </div>
               </div>
-              <div class="rounded-lg h-80 md:h-96 section bg-img" style="background-image: url(recent2.jpg)">
+              <div class="rounded-lg h-80 md:h-96 section bg-img " style="background-image: url(recent2.jpg)">
                 <div class="block rounded-lg w-full h-full bg-gradient-to-t from-zinc-900 group">
                   <div class="px-6 md:px-11 py-6 md:py-10 absolute bottom-0 drop-shadow-xl text-white">
                     <div class="text-2xl md:text-3xl font-semibold keep-all">2022 지금그때</div>
