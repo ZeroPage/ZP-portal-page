@@ -5,9 +5,9 @@
             <span class=" pt-8 font-extrabold tracking-tight ">ZeroPage</span>
         </div>
 
-        <Search class="max-w-3xl"/>
+        <Search class="max-w-2xl"/>
 
-        <div class=" flex space-x-2 md:space-x-4 pb-10 md:pb-20 md:pt-6 justify-center text-xs md:text-xl">
+        <div class=" flex space-x-1 md:space-x-4 pb-10 md:pb-20 md:pt-6 justify-center text-xs md:text-xl">
                 <div type="" class="hidden md:block  px-6 py-2.5 bg-gray-800 text-white font-medium leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out">#중앙대학교</div>
                 <div type="" class="hidden md:block  px-6 py-2.5 bg-gray-800 text-white font-medium leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out">#소프트웨어학부</div>
                 <div type="" class="hidden md:block  px-6 py-2.5 bg-gray-800 text-white font-medium leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out">#학술연구회</div>
