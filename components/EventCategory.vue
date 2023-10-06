@@ -1,54 +1,64 @@
 <template>
     <div>
-        <div class="max-w-7xl flex grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mx-auto px-4 sm:gap-4 pb-18 md:pb-8">
-            <div class="rounded-xl border-2 border-zinc-900 hover:border-white cursor-pointer mb-10 sm:mb-0 px-2 py-2">
+        <div class="max-w-7xl flex grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 mx-auto px-4 sm:gap-8 pb-18 md:pb-8 md:gap-16">
+            <div class="rounded-xl cursor-pointer mb-10 sm:mb-0 px-2 py-2">
                 <nuxt-link to="oms">
-                    <div>
-                        <img :src="require(`~/assets/resources/category/oms.jpg`)" class="rounded-t-xl border-none rounded-b-xl"/>
+                    <div class="hover:scale-110 transition duration-300">
+                        <img :src="require(`~/assets/resources/new/oms.png`)" class="rounded-t-xl border-none rounded-b-xl"/>
                     </div>
-                    <!-- <div class="text-center px-4 py-6">
+                    <div class="text-center px-4 py-6">
                         <p class="font-general-semibold text-xl text-white font-semibold mb-2">OMS</p>
-                    </div> -->
+                    </div>
                 </nuxt-link>
             </div>
-            <div class="rounded-xl border-2 border-zinc-900 hover:border-white cursor-pointer mb-10 sm:mb-0 px-2 py-2">
+            <div class="rounded-xl cursor-pointer mb-10 sm:mb-0 px-2 py-2">
                 <nuxt-link to="sprouthon">
-                    <div>
-                        <img :src="require(`~/assets/resources/category/sprouthon.jpg`)" class="rounded-t-xl border-none rounded-b-xl"/>
+                    <div class="hover:scale-110 transition duration-300">
+                        <img :src="require(`~/assets/resources/new/sprouthon.png`)" class="rounded-t-xl border-none rounded-b-xl"/>
                     </div>
-                    <!-- <div class="text-center px-4 py-6">
-                        <p class="font-general-semibold text-xl text-white font-semibold mb-2">새싹톤</p>
-                    </div> -->
+                    <div class="text-center px-4 py-6">
+                        <p class="font-general-semibold text-xl text-white font-semibold mb-2">새싹교실 & 새싹톤</p>
+                    </div>
                 </nuxt-link>
             </div>
-            <div class="rounded-xl border-2 border-zinc-900 hover:border-white cursor-pointer mb-10 sm:mb-0 px-2 py-2">
+            <div class="rounded-xl cursor-pointer mb-10 sm:mb-0 px-2 py-2">
                 <nuxt-link to="/devilscamp">
-                    <div>
-                        <img :src="require(`~/assets/resources/category/devilscamp.jpg`)" class="rounded-t-xl border-none rounded-b-xl"/>
+                    <div class="hover:scale-110 transition duration-300">
+                        <img :src="require(`~/assets/resources/new/devilscamp.png`)" class="rounded-t-xl border-none rounded-b-xl"/>
                     </div>
-                    <!-- <div class="text-center px-4 py-6">
-                        <p class="font-general-semibold text-xl text-white font-semibold mb-2">Devils Camp</p>
-                    </div> -->
+                    <div class="text-center px-4 py-6">
+                        <p class="font-general-semibold text-xl text-white font-semibold mb-2">데블스캠프</p>
+                    </div>
                 </nuxt-link>
             </div>
-            <div class="rounded-xl border-2 border-zinc-900 hover:border-white cursor-pointer mb-10 sm:mb-0 px-2 py-2">
+            <div class="rounded-xl cursor-pointer mb-10 sm:mb-0 px-2 py-2">
                 <nuxt-link to="/angelscamp">
-                    <div>
-                        <img :src="require(`~/assets/resources/category/angelscamp.jpg`)" class="rounded-t-xl border-none rounded-b-xl"/>
+                    <div class="hover:scale-110 transition duration-300">
+                        <img :src="require(`~/assets/resources/new/angelscamp.png`)" class="rounded-t-xl border-none rounded-b-xl"/>
                     </div>
-                    <!-- <div class="text-center px-4 py-6">
-                        <p class="font-general-semibold text-xl text-white font-semibold mb-2">Devils Camp</p>
-                    </div> -->
+                    <div class="text-center px-4 py-6">
+                        <p class="font-general-semibold text-xl text-white font-semibold mb-2">엔젤스캠프</p>
+                    </div>
                 </nuxt-link>
             </div>
-            <div class="rounded-xl border-2 border-zinc-900 hover:border-white cursor-pointer mb-10 sm:mb-0 px-2 py-2">
+            <div class="rounded-xl cursor-pointer mb-10 sm:mb-0 px-2 py-2">
                 <nuxt-link to="/jigeumgeuddae">
-                    <div>
-                        <img :src="require(`~/assets/resources/category/jigeumgeuddae.jpg`)" class="rounded-t-xl border-none rounded-b-xl"/>
+                    <div class="hover:scale-110 transition duration-300">
+                        <img :src="require(`~/assets/resources/new/jigeumgeuddae.png`)" class="rounded-t-xl border-none rounded-b-xl"/>
                     </div>
-                    <!-- <div class="text-center px-4 py-6">
-                        <p class="font-general-semibold text-xl text-white font-semibold mb-2">Devils Camp</p>
-                    </div> -->
+                    <div class="text-center px-4 py-6">
+                        <p class="font-general-semibold text-xl text-white font-semibold mb-2">지금그때</p>
+                    </div>
+                </nuxt-link>
+            </div>
+            <div class="rounded-xl cursor-pointer mb-10 sm:mb-0 px-2 py-2">
+                <nuxt-link to="/year-end-party">
+                    <div class="hover:scale-110 transition duration-300">
+                        <img :src="require(`~/assets/resources/new/end-year-party.png`)" class="rounded-t-xl border-none rounded-b-xl"/>
+                    </div>
+                    <div class="text-center px-4 py-6">
+                        <p class="font-general-semibold text-xl text-white font-semibold mb-2">기년회</p>
+                    </div>
                 </nuxt-link>
             </div>
              
