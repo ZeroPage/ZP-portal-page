@@ -58,27 +58,27 @@
 
         <div data-aos="fade-up" class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-12 pb-16 md:pb-24 px-6  ">
           <div class="h-content">
-            <div class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3">정모 & OMS</div>
+            <nuxt-link :to="{path: '/oms'}" class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3 hover:underline">정모 & OMS</nuxt-link>
             <div class="text-base md:text-lg text-slate-400 keep-all">함께하는 성장! 매주 수요일 정모에 참여하여 앎을 공유하고 다른 제로페이지 회원들을 만나보아요! </div>
           </div>
           <div class="h-content">
-            <div class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3">새싹교실 & 새싹톤</div>
+            <nuxt-link :to="{path: '/sprouthon'}" class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3 hover:underline">새싹교실 & 새싹톤</nuxt-link>
             <div class="text-base md:text-lg text-slate-400 keep-all">선후배간의 친목을 도모하고 학술 교류의 장입니다. 관심분야별 클래스 속에서 혼자서는 알 수 없었던 내용을 배우고 이를 뽐내보아요.</div>
           </div>
           <div class="h-content">
-            <div class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3">데블스캠프</div>
+            <nuxt-link :to="{path: '/devilscamp'}" class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3 hover:underline">데블스캠프</nuxt-link>
             <div class="text-base md:text-lg text-slate-400 keep-all">제로페이지의 컨퍼런스 행사! 1기 선배님부터 여러분까지 다양한 사람의 경험과 현재 시장의 트렌드까지 배우고 공유할 수 있어요.</div>
           </div>
           <div class="h-content">
-            <div class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3">엔젤스캠프</div>
+            <nuxt-link :to="{path: '/angelscamp'}" class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3 hover:underline">엔젤스캠프</nuxt-link>
             <div class="text-base md:text-lg text-slate-400 keep-all">평소에 갖고 있던 기발한 아이디어를 결과물로 만들어볼 수 있는 시간이에요!  시도하지 못한 아이디어를 서로 도와 뽐내볼까요?</div>
           </div>
           <div class="h-content">
-            <div class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3">지금그때</div>
+            <nuxt-link :to="{path: '/jigeumgeuddae'}" class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3 hover:underline">지금그때</nuxt-link>
             <div class="text-base md:text-lg text-slate-400 keep-all">여러분의 지금이 우리의 그때보다 낫길 바라며 선후배들이 모여 이야기를 나누고 서로의 시선에서 경험을 나눕니다.</div>
           </div>
           <div class="h-content">
-            <div class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3">기년회</div>
+            <nuxt-link :to="{path: '/year-end-party'}" class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3 hover:underline">기년회</nuxt-link>
             <div class="text-base md:text-lg text-slate-400 keep-all">저녁에 술 약속을 잡는 송년회나 망년회가 아닌 밝을 때 조용한 곳에 모여 한 해를 되돌아보며 앞으로의 내일을 계획합니다.</div>
           </div>
           

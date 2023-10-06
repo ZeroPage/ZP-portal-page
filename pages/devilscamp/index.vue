@@ -9,7 +9,7 @@
                 2023 ZP의 데블스캠프 기록입니다.
             </div>
             <div class="font-normal text-base md:text-xl text-blue-300 text-right hover:text-blue-500 hover:underline">
-                <nuxt-link :to="{path: '/pre-devilscamp'}" replace>올해의 데블스캠프를 알아보아요!</nuxt-link>
+                <nuxt-link :to="{path: '/pre-devilscamp'}" replace>2023 데블스캠프 포스터 보러가기</nuxt-link>
             </div>
         </div>
 
