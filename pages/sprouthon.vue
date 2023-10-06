@@ -17,8 +17,8 @@
                   <img  class="profile" :src="require(`~/assets/resources/sprouthon/01.jpg`)" alt="">
                 </div>
                 <div class=" px-0 md:px-4 md:pl-9 ">
-                  <p class="mb-1 md:mb-1.5 text-sm md:text-sm text-green-400">TEAM-01</p>
-                  <a class="mb-1 md:mb-1.5 text-lg md:text-2xl font-semibold  text-white transition group-hover:text-green-300 group-hover:duration-500" href="https://github.com/beomjunback/sprouthon" target="blank">범준 가챠</a>
+                  <p class="mb-1 md:mb-1.5 text-sm md:text-sm text-blue-400">TEAM-01</p>
+                  <a class="mb-1 md:mb-1.5 text-lg md:text-2xl font-semibold  text-white transition group-hover:text-blue-300 group-hover:duration-500" href="https://github.com/beomjunback/sprouthon" target="blank">범준 가챠</a>
                   <p class=" text-sm md:text-base text-white custom-text">백범준</p>
                 </div>
               </div>
@@ -27,8 +27,8 @@
             <div class="group hidden md:block">
               <div class=" flex items-center  py-5 md:py-8 justify-end">
                 <div class=" px-0 md:px-4 md:pr-9 text-right">
-                  <p class="mb-1 md:mb-1.5 text-sm md:text-sm text-blue-400">TEAM-02</p>
-                  <a class="mb-1 md:mb-1.5 text-lg md:text-2xl font-semibold  text-white transition group-hover:text-blue-300 group-hover:duration-500" href="https://github.com/uki0903/Bricks-Breaker-in-C" target="blank">벽돌깨기</a>
+                  <p class="mb-1 md:mb-1.5 text-sm md:text-sm text-orange-400">TEAM-02</p>
+                  <a class="mb-1 md:mb-1.5 text-lg md:text-2xl font-semibold  text-white transition group-hover:text-orange-300 group-hover:duration-500" href="https://github.com/uki0903/Bricks-Breaker-in-C" target="blank">벽돌깨기</a>
                   <p class=" text-sm md:text-base text-white custom-text">최형욱 · 박지원</p>
                 </div>
                 <div class="sbox">

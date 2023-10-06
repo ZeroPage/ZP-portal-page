@@ -9,7 +9,7 @@
         <ul v-if="articles.length" class="shadow-sm md:shadow rounded-lg border border-gray-300 px-4 bg-white">
           <li class="text-gray-600 py-2.5 md:py-3.5 border-b text-base lastborder" v-for="article of articles" :key="article.slug">
             <!-- <NuxtLink :to="{ name: 'slug', pa`rams: { slug: article.slug } }"> -->
-            <nuxt-link :to='`article/${article.slug}`'>
+            <nuxt-link :to='`oms/${article.slug}`'>
               {{ article.title }}
             </nuxt-link>
           </li>
@@ -32,7 +32,7 @@ export default {
         return
       }
 
-      this.articles = await this.$content('article')
+      this.articles = await this.$content('oms')
         .only(['title', 'slug'])
         .sortBy('title')
         .limit(15)

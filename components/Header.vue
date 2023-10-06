@@ -17,15 +17,15 @@
                     <li class="hidden py-1.5 px-2.5 rounded-lg md:block text-[#953ff7] lgtoxl border-2 border-[#953ff7] hover:border-blue-100 hover:text-blue-100 transition hover:duration-300 font-normal">
                         <nuxt-link :to="{path: '/pre-jigeumgeuddae'}" replace>지금그때</nuxt-link>
                     </li> -->
-                    <li class="hidden py-1.5 px-2.5 rounded-lg md:block text-white lgtoxl hover:text-yellow-300 transition hover:duration-300 font-normal">
+                    <li class="hidden py-1.5 px-2.5 rounded-lg md:block text-white lgtoxl hover:text-blue-300 transition hover:duration-300 font-normal">
                         <a href="https://wiki.zeropage.org/wiki.php" target="blank">Wiki</a>
                     </li>
-                    <li class="hidden py-1.5 px-2.5 rounded-lg md:block text-white lgtoxl hover:text-green-400 transition hover:duration-300 font-normal">
+                    <li class="hidden py-1.5 px-2.5 rounded-lg md:block text-white lgtoxl hover:text-blue-400 transition hover:duration-300 font-normal">
                         <a href="https://zeropage.org/" target="blank">Main</a>
                     </li>
-                    <li class="hidden py-1.5 px-2.5 rounded-lg md:block text-white lgtoxl hover:text-orange-400 transition hover:duration-300 font-normal">
+                    <!-- <li class="hidden py-1.5 px-2.5 rounded-lg md:block text-white lgtoxl hover:text-orange-400 transition hover:duration-300 font-normal">
                         <nuxt-link :to="{path: '/manual'}" replace>Manual</nuxt-link>
-                    </li>
+                    </li> -->
                     <li class="hidden py-1.5 px-2.5 rounded-lg md:block text-white lgtoxl hover:text-blue-400 transition hover:duration-300 font-normal">
                         <nuxt-link :to="{path: '/event'}" replace>Event</nuxt-link>
                     </li>

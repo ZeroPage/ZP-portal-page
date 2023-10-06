@@ -13,14 +13,14 @@
             </div>
         </div>
 
-        <div data-aos="fade-up" class="max-w-7xl flex grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mx-auto px-6 sm:gap-7 pb-18 md:pb-8">
+        <div data-aos="fade-up" class="max-w-7xl flex grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mx-auto px-6 sm:gap-10 pb-18 md:pb-8">
             <div  class="rounded-xl border-2 border-zinc-900 hover:border-white cursor-pointer mb-10 sm:mb-0 px-4 py-4 group" v-for="devilscamp of devilscamps" :key="devilscamp">
                 <nuxt-link :to='`devilscamp/${devilscamp.slug}`'>
 
                     <div class="">
                         <img class="rounded-t-xl border-none rounded-b-xl" :src="require(`~/assets/resources/devilscamp/${devilscamp.img}`)" alt="">
                     </div>
-                    <div class="text-center px-4 py-6">
+                    <div class="text-center px-4 py-4">
                         <h2 class="mb-1 md:mb-1.5 text-lg md:text-xl font-semibold  text-white transition group-hover:text-blue-400 group-hover:duration-500">{{ devilscamp.title }}</h2>
                         <p class=" text-sm md:text-base text-white custom-text">{{devilscamp.speaker}}</p>
                     </div>

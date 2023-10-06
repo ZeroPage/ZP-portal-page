@@ -23,6 +23,7 @@
     "vue-typer": "^1.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.23.0",
     "@nuxt/content": "^1.15.1",
     "@nuxt/image": "^0.7.1",
     "@nuxtjs/tailwindcss": "^4.2.1",

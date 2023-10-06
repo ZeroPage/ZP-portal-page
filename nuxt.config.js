@@ -105,5 +105,14 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    babel: {
+      plugins: [
+        '@babel/plugin-proposal-class-properties',
+        '@babel/plugin-proposal-private-methods',
+  
+        // or with JUST the line below 
+        // ['@babel/plugin-proposal-private-property-in-object', { loose: true }]
+      ],
+    },
   }
 }
