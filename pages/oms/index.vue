@@ -11,14 +11,13 @@
         </div>
 
         <div  class="max-w-7xl grid grid-cols-1 colspan mt-5 md:mt-8 pb-10 md:pb-24 mx-auto px-6">
-            <div class="group " v-for="oms of omss" :key="oms">
+        
+            <div class="group px-0 py-3 md:px-5 md:py-5 bg-transparent hover:bg-zinc-800 rounded-xl transition hover:duration-200" v-for="oms of omss" :key="oms">
                 <nuxt-link :to='`oms/${oms.slug}`'>
-                    <div class="article-inner flex items-center my-2 md:py-4 bg-gray-800 rounded-3xl" data-aos="fade-up">
-                        <div class="px-0 md:px-6 md:pl-9 md:py-0  pl-8 py-4">
-                            <p class="mb-1 md:mb-1.5 text-sm md:text-sm text-blue-400 font-semibold">{{oms.date}}</p>
-                            <h2 class="mb-1 md:mb-1.5 text-lg md:text-xl font-semibold  text-white transition group-hover:text-blue-300 group-hover:duration-500">{{ oms.title }}</h2>
-                            <p class="mb-1 md:mb-1.5 text-sm md:text-sm text-white">{{oms.speaker}} · ZeroPage</p>
-                        </div>
+                    <div class="block md:flex items-center md:justify-between px-4 md:px-6" data-aos="fade-up">
+                        <div class="text-white text-lg md:text-xl font-medium w-full md:w-3/6">{{oms.title}} </div>
+                        <div class="text-slate-400 text-base w-2/6 text-left hidden md:block"> {{oms.date}}</div>
+                        <div class="text-slate-400 text-sm md:text-base w-auto md:w-1/6 text-left md:text-right"> {{oms.speaker}}</div>
                     </div>
                 </nuxt-link>
             </div>
