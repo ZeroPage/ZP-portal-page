@@ -64,8 +64,8 @@
                     <!-- <li><nuxt-link :to="{path: '/pre-devilscamp'}" replace @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Devils Camp</nuxt-link></li> -->
                     <!-- <li><nuxt-link :to="{path: '/pre-angelscamp'}" replace @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Angels Camp</nuxt-link></li> -->
                     <!-- <li><nuxt-link :to="{path: '/pre-jigeumgeuddae'}" replace @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">지금그때</nuxt-link></li> -->
-                    <button @click=" isOpen = false" class=" text-white my-3 inline-block w-full mx-auto"></button><li><a href="https://wiki.zeropage.org/wiki.php" >Wiki</a></li>
-                    <button @click=" isOpen = false" class=" text-white my-3 inline-block w-full mx-auto"></button><li><a href="https://zeropage.org/" >Main</a></li>
+                    <button @click=" isOpen = false" class=" text-white my-3 inline-block w-full mx-auto"><li><a href="https://wiki.zeropage.org/wiki.php" >Wiki</a></li></button>
+                    <button @click=" isOpen = false" class=" text-white my-3 inline-block w-full mx-auto"><li><a href="https://zeropage.org/" >Main</a></li></button>
                     <!-- <li><nuxt-link :to="{path: '/manual'}" replace @click="isOpen = false" class="text-white my-3 inline-block w-full text-center">Manual</nuxt-link></li> -->
                     <button @click=" isOpen = false" class=" text-white my-3 inline-block w-full mx-auto"><li><nuxt-link :to="{path: '/event'}"  >Event</nuxt-link></li></button>
                 </ul>
