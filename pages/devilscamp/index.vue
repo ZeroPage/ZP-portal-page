@@ -41,7 +41,7 @@ export default {
     }
   },
     head: {
-        title: 'ZeroPage DevilsCamp',
+        title: 'ZeroPage | 데블스캠프',
         htmlAttrs: {
         lang: 'ko'
         },
