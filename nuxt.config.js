@@ -1,7 +1,9 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
+  env: {
+    baseUrl: "https://zpback.dongwoo.win"
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'ZeroPage',
@@ -49,7 +51,7 @@ export default {
         hid: 'og:image:secure_url',
         property: 'og:image:secure_url',
         content: 'https://raw.githubusercontent.com/ZeroPage/ZP-portal-page/main/static/og_image1.jpg'
-      
+
       },
       {
         hid: 'og:image:alt',
@@ -58,10 +60,10 @@ export default {
       }
     ],
     link: [
-      { 
-        rel: 'icon', 
-        type: 'image/x-icon', 
-        href: '/favicon.ico' 
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico'
       },
       {
         type: 'text/css',
@@ -69,7 +71,7 @@ export default {
         href: 'https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css'
       }
     ]
-    
+
   },
 
 
@@ -107,11 +109,9 @@ export default {
   build: {
     babel: {
       plugins: [
-        '@babel/plugin-proposal-class-properties',
-        '@babel/plugin-proposal-private-methods',
-  
-        // or with JUST the line below 
-        // ['@babel/plugin-proposal-private-property-in-object', { loose: true }]
+        ["@babel/plugin-transform-class-properties", { "loose": true }],
+        ["@babel/plugin-transform-private-methods", { "loose": true }],
+        ["@babel/plugin-transform-private-property-in-object", { "loose": true }]
       ],
     },
   }
