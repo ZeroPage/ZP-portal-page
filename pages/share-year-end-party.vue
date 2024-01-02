@@ -39,13 +39,14 @@
       <div class="flex space-x-1 md:space-x-4 pb-10 md:pb-20 md:pt-6 justify-center text-xs md:text-xl">
         <div @click="shuffleDeck" class="cursor-pointer px-6 py-2.5 bg-gray-800 text-white font-semibold leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out">Shuffle</div>
         <div @click="selectRandomCard" class="cursor-pointer px-6 py-2.5 bg-gray-800 text-white font-semibold leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out">Random Select</div>
+        <div @click="toggleNameVisibility" class="cursor-pointer px-6 py-2.5 bg-gray-800 text-white font-semibold leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out">Name {{ nameVisible ? 'Hide' : 'Show' }}</div>
       </div>
 
     </div>
     <transition-group :name="shuffleSpeed" tag="div" class="deck">
       <div v-for="card in cards" :key="card.id" class="card" :class="getCardClass(card.type)" :style="{ height: cardHeight + 'px' }" @click="selectCard(card)">
         <div class="card-content">
-          <span class="card__name">{{ card.name }} ({{ card.number }}기)</span>
+          <span class="card__name" v-show="nameVisible">{{ card.name }} ({{ card.number }}기)</span>
           <span class="card__message">{{ card.message }}</span>
         </div>
       </div>
@@ -68,14 +69,17 @@ export default {
       shuffleCount: 0,
       shuffledDeck: false,
       selectedCard: null,
+      nameVisible: false,
     };
   },
   created() {
     this.displayInitialDeck();
+    this.nameVisible = false;
     this.shuffleSpeed = 'shuffleMedium';
   },
   mounted() {
     this.displayInitialDeck();
+    this.nameVisible = false;
   },
   computed: {
     cardHeight() {
@@ -91,6 +95,9 @@ export default {
       this.shuffledDeck = false;
       this.shuffleCount = 0;
       this.loadDeck();
+    },
+    toggleNameVisibility() {
+      this.nameVisible = !this.nameVisible;
     },
     async loadDeck() {
       const { default: axios } = await import('axios');
@@ -159,7 +166,22 @@ export default {
       this.closeModal();
       this.deleteMessage(cardId)
     },
-    /*async deleteMessage(cardId) {
+    async deleteMessage(cardId) {
+      //현재 한국 시간이 2024년 1월 6일 오후 1시 30분부터 6시 30분사이라면 삭제 가능
+      const now = new Date();
+      const year = now.getFullYear();
+      const month = now.getMonth() + 1;
+      const date = now.getDate();
+      const hour = now.getHours();
+      const minute = now.getMinutes();
+      const second = now.getSeconds();
+      const nowTime = new Date(year, month, date, hour, minute, second);
+      const startTime = new Date(2024, 0, 6, 13, 30, 0);
+      const endTime = new Date(2024, 0, 6, 18, 30, 0);
+      if (nowTime < startTime || nowTime > endTime) {
+        alert('삭제 불가능.');
+        return;
+      }
       const card = this.cards.find(c => c.id === cardId);
       if (!card) {
         console.error('카드를 찾을 수 없습니다.');
@@ -192,7 +214,7 @@ export default {
         // 오류 메시지 표시
         alert("삭제 중 오류가 발생했습니다.");
       }
-    },*/
+    },
 
 
   }
