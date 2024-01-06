@@ -167,21 +167,6 @@ export default {
       this.deleteMessage(cardId)
     },
     async deleteMessage(cardId) {
-      //현재 한국 시간이 2024년 1월 6일 오후 1시 30분부터 6시 30분사이라면 삭제 가능
-      const now = new Date();
-      const year = now.getFullYear();
-      const month = now.getMonth() + 1;
-      const date = now.getDate();
-      const hour = now.getHours();
-      const minute = now.getMinutes();
-      const second = now.getSeconds();
-      const nowTime = new Date(year, month, date, hour, minute, second);
-      const startTime = new Date(2024, 0, 6, 13, 30, 0);
-      const endTime = new Date(2024, 0, 6, 18, 30, 0);
-      if (nowTime < startTime || nowTime > endTime) {
-        alert('삭제 불가능.');
-        return;
-      }
       const card = this.cards.find(c => c.id === cardId);
       if (!card) {
         console.error('카드를 찾을 수 없습니다.');
@@ -218,6 +203,7 @@ export default {
 
 
   }
+
 };
 </script>
 
@@ -331,7 +317,7 @@ html, body, #app {
   align-items: center;
   position: absolute;
   z-index: 1000;
-  top: 40%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
