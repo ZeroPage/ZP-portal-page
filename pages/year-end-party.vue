@@ -27,9 +27,10 @@
 
 
     </div>
-    <div  data-aos="zoom-in" class="max-w-4xl mx-auto pb-20 pt-4" style="text-align:center">
+
+    <!--<div  data-aos="zoom-in" class="max-w-4xl mx-auto pb-20 pt-4" style="text-align:center">
       <nuxt-link :to="{path: '/input-year-end-party'}" class="button1">2023년 공유하기</nuxt-link>
-    </div>
+    </div>-->
 
 
 
