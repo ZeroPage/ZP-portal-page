@@ -11,9 +11,9 @@
         </div>
 
         <div  class="max-w-7xl grid grid-cols-1 colspan mt-5 md:mt-8 pb-10 md:pb-24 mx-auto px-6">
-        
+
             <div class="group px-0 py-3 md:px-5 md:py-5 bg-transparent hover:bg-zinc-800 rounded-xl transition hover:duration-200" v-for="oms of omss" :key="oms">
-                <nuxt-link :to='`oms/${oms.slug}`'>
+                <nuxt-link :to='`/oms/${oms.slug}`'>
                     <div class="block md:flex items-center md:justify-between px-4 md:px-6" data-aos="fade-up">
                         <div class="text-white text-lg md:text-xl font-medium w-full md:w-3/6">{{oms.title}} </div>
                         <div class="text-slate-400 text-base w-2/6 text-left hidden md:block"> {{oms.date}}</div>
@@ -23,7 +23,7 @@
             </div>
         </div>
 
-        
+
     </div>
 
 </template>
