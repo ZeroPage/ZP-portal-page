@@ -1,6 +1,10 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  server: {
+    host: '0.0.0.0', // 모든 IP에서 접속 가능하도록 설정
+    port: 3000 // 포트 설정
+  },
   env: {
     baseUrl: "https://zpback.dongwoo.win"
   },
