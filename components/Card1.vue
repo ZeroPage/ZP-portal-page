@@ -12,7 +12,7 @@
             </li>
             <li>
                 <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">임지민님 | Selenium : 웹 브라우저 자동화 도</span>
+                    <span class="flex-1 ml-3 whitespace-nowrap">임지민님 | Selenium : 웹 브라우저 자동화 도구</span>
                 </a>
             </li>
             
