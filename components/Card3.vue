@@ -12,7 +12,7 @@
             </li>
             <li>
                 <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">김동욱님 | 현업에서 써먹는 자동화(feat. Figma Token, OpenAPI, GitHub Action)</span>
+                    <span class="flex-1 ml-3 whitespace-nowrap">김동욱님 | 현업에서 써먹는 자동화</span>
                 </a>
             </li>
             <li>
