@@ -3,16 +3,16 @@
         <h5 class="mb-3 text-base font-semibold text-white lg:text-xl ">
             DAY 1
         </h5>
-        <p class="text-sm font-normal text-zinc-300 ">6월 30일 19:00 ~ 23:00</p>
+        <p class="text-sm font-normal text-zinc-300 ">6월 28일 18:00 ~ 23:00</p>
         <ul class=" my-4 space-y-3">
             <li>
                 <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">김경민님 | Diceware & SELinux로 보안강화</span>
+                    <span class="flex-1 ml-3 whitespace-nowrap">홍혁준님 | 학부생으로서 어떻게 공부해야 하는가</span>
                 </a>
             </li>
             <li>
                 <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">김도엽님 | OT(오리엔테이션 아님) 설명회</span>
+                    <span class="flex-1 ml-3 whitespace-nowrap">임지민님 | Selenium : 웹 브라우저 자동화 도</span>
                 </a>
             </li>
             
