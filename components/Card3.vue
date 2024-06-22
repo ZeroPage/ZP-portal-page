@@ -17,7 +17,7 @@
             </li>
             <li>
                 <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">김동우님 | Llama 3</span>
+                    <span class="flex-1 ml-3 whitespace-nowrap">김동우님 | RAG: 언어모델에게 참고서를 제공하기</span>
                 </a>
             </li>
             <li>
