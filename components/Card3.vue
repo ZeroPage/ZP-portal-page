@@ -3,21 +3,26 @@
         <h5 class="mb-3 text-base font-semibold text-white lg:text-xl ">
             DAY 3
         </h5>
-        <p class="text-sm font-normal text-zinc-300 ">7월 2일 13:00 ~ 20:00</p>
+        <p class="text-sm font-normal text-zinc-300 ">6월 30일 13:00 ~ 20:00</p>
         <ul class="my-4 space-y-3">
             <li>
                 <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">이민욱님 | 컨테이너 이모저모</span>
+                    <span class="flex-1 ml-3 whitespace-nowrap">김정민님 | TBD</span>
                 </a>
             </li>
             <li>
                 <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">송치완님 | 자율주행, 뭔가 보여드리겠습니다</span>
+                    <span class="flex-1 ml-3 whitespace-nowrap">김동욱님 | 현업에서 써먹는 자동화(feat. Figma Token, OpenAPI, GitHub Action)</span>
                 </a>
             </li>
             <li>
                 <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">서민관님 | Diffusion model</span>
+                    <span class="flex-1 ml-3 whitespace-nowrap">김동우님 | Llama 3</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
+                    <span class="flex-1 ml-3 whitespace-nowrap">김도엽님 | 보안 대회 입문자를 위한 여행 가이드</span>
                 </a>
             </li>
             
