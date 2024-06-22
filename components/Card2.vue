@@ -3,29 +3,28 @@
         <h5 class="mb-3 text-base font-semibold text-white lg:text-xl ">
             DAY 2
         </h5>
-        <p class="text-sm font-normal text-zinc-300 ">7월 1일 13:00 ~ 20:00</p>
+        <p class="text-sm font-normal text-zinc-300 ">6월 29일 13:00 ~ 20:00</p>
         <ul class="my-4 space-y-3">
             <li>
                 <a href="#" class="flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <div class="flex-1 ml-3 whitespace-nowrap">김은솔님 | 스프링 프레임워크의 구조</div>
+                    <div class="flex-1 ml-3 whitespace-nowrap">정우현님 | 우아한 테스트 코드 작성(Kotlin)</div>
                 </a>
             </li>
             <li>
                 <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow "> 
-                    <span class="flex-1 ml-3 whitespace-nowrap">정우현님 | 오렌지파이 위에 커널 올려보기</span>
+                    <span class="flex-1 ml-3 whitespace-nowrap">김은솔님 | 스프링 부트로 동시성 처리하기</span>
                 </a>
             </li>
             <li>
                 <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow ">  
-                    <span class="flex-1 ml-3 whitespace-nowrap">김동욱님 | 선언적 프로그래밍 소개 (React)</span>
+                    <span class="flex-1 ml-3 whitespace-nowrap">우준혁님 | 로봇공학</span>
                 </a>
             </li>
             <li>
                 <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow ">  
-                    <span class="flex-1 ml-3 whitespace-nowrap">박인서님 | TypeScript 입문하기</span>
+                    <span class="flex-1 ml-3 whitespace-nowrap">송정규님 | 텔레그램으로 스마트 계약부터 미니앱까지</span>
                 </a>
             </li>
-            
         </ul>
         <div>
             <a href="#" class="inline-flex items-center text-xs font-normal text-gray-500 hover:underline dark:text-gray-400">
