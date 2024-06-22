@@ -2,7 +2,7 @@
 <template>
     <div class="w-full z-0 bg-black section h-content" >
         <div class="pt-16 md:pt-24 pb-8 md:pb-20 max-w-7xl mx-auto text-6xl md:text-8xl text-white text-center">
-            <div class="opacity-70 text-2xl  md:text-5xl font-semibold md:font-bold tracking-tight pb-1 md:pb-2">ZeroPage DevilsCamp 2023</div>
+            <div class="opacity-70 text-2xl  md:text-5xl font-semibold md:font-bold tracking-tight pb-1 md:pb-2">ZeroPage DevilsCamp 2024</div>
             <span class="gradient-one pt-8 font-extrabold tracking-tight ">Ignite Your Passion</span>
             <div class="pt-8 font-medium text-white text-xl md:text-3xl">다양한 주제를 만나보아요!</div>
 
@@ -19,7 +19,7 @@
                 </div>
                 <div class="h-content">
                     <div class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3">When & Where</div>
-                    <div class="text-base md:text-lg text-slate-400 keep-all">6월 30일부터 7월 2일까지 중앙대학교 208관 415호 실습실에서 진행됩니다. </div>
+                    <div class="text-base md:text-lg text-slate-400 keep-all">6월 28일부터 6월 30일까지 중앙대학교 208관 415호 실습실에서 진행됩니다. </div>
                 </div>
                 <div class="h-content">
                     <div class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3">What</div>
