@@ -20,6 +20,11 @@
                     <span class="flex-1 ml-3 whitespace-nowrap">우준혁님 | 로봇공학</span>
                 </a>
             </li>
+            <li>
+                <a href="#" class=" flex items-center p-3 text-base font-bold text-white bg-slate-600 rounded-lg hover:bg-slate-500 group hover:shadow ">  
+                    <span class="flex-1 ml-3 whitespace-nowrap">송정규님 | 텔레그램으로 스마트 계약부터 미니앱까지</span>
+                </a>
+            </li>
         </ul>
         <div>
             <a href="#" class="inline-flex items-center text-xs font-normal text-gray-500 hover:underline dark:text-gray-400">
