@@ -1,0 +1,96 @@
+name: CI/CD Docker
+
+# main 브랜치 - 트리거 대상
+on:
+  push:
+    branches: [ main ]
+
+# 환경설정
+env:
+  DOCKER_IMAGE: ghcr.io/zeropage/zp-portal-page
+  VERSION: ${{ github.sha }}
+  NAME: zp_portal
+
+jobs:
+  # 빌드 Job
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      # github repository에서 checkout
+      - uses: actions/checkout@v3
+      # docker build 수행
+      - name: Set up docker buildx
+        id: buildx
+        uses: docker/setup-buildx-action@v2
+
+      # Docker 레이어 캐싱
+      - name: Cache Docker layers
+        uses: actions/cache@v3
+        with:
+          path: /tmp/.buildx-cache
+          key: ${{ runner.os }}-buildx-${{ env.VERSION }}
+          restore-keys: |
+            ${{ runner.os }}-buildx-
+            
+      # GitHub 컨테이너 레지스트리에 로그인 후 빌드 & 푸시
+      - name: Login to ghcr
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: zeropage
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      # 캐시된 레이어 사용하여 빌드 및 푸시
+      - name: Build and push
+        id: docker_build
+        uses: docker/build-push-action@v4
+        with:
+          builder: ${{ steps.buildx.outputs.name }}
+          push: true
+          tags: ${{ env.DOCKER_IMAGE }}:latest
+          cache-from: type=gha,scope=${{ runner.os }}-buildx-${{ env.VERSION }}
+          cache-to: type=gha,scope=${{ runner.os }}-buildx-${{ env.VERSION }}
+
+  # 배포 Job
+  deploy:
+    needs: build  # build 후에 실행되도록 정의
+    name: Deploy
+    runs-on: [ self-hosted, label-go ] # EC2 인스턴스에서 사용할 label명
+    steps:
+      - name: Login to ghcr
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: zeropage
+          password: ${{ secrets.GITHUB_TOKEN }}
+      
+      # Docker Compose를 사용하여 배포
+      - name: Deploy with Docker Compose
+        run: |
+          cd ~/zeropage.org
+          echo "Pulling the latest image for portal..."
+          docker-compose pull portal
+          echo "Latest image for portal pulled."
+          
+          echo "Checking if portal is running..."
+          if [ "$(docker ps -q -f name=portal)" ]; then
+            echo "Stopping portal service..."
+            docker-compose down portal
+            echo "Portal service stopped."
+          else
+            echo "Portal service is not running."
+          fi
+          
+          echo "Checking if portal has exited..."
+          if [ "$(docker ps -aq -f status=exited -f name=portal)" ]; then
+            echo "Removing exited portal container..."
+            docker-compose rm -f portal
+            echo "Exited portal container removed."
+          else
+            echo "No exited portal container found."
+          fi
+          
+          echo "Starting portal service..."
+          docker compose up -d portal
+          echo "Portal service started."

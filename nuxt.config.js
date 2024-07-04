@@ -118,5 +118,9 @@ export default {
         ["@babel/plugin-transform-private-property-in-object", { "loose": true }]
       ],
     },
-  }
+  },
+  buildDir: 'nuxt-build',
+  generate: {
+    dir: 'dist'
+  },
 }

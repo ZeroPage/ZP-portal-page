@@ -88,3 +88,7 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# build or generate files
+nuxt-build/
+dist/
