@@ -1,7 +1,7 @@
 
 <template>
     <!-- <div class="w-full z-0 bg-black section h-content" > -->
-    <div class="z-0 bg-img section h-content" style="background-image: url(backgroundImage4.jpg)">
+    <div class="z-0 bg-img section h-content" style="background-image: url(bgImage.jpg)">
         <div class="pt-16 pb-10 md:pt-24  md:pb-10 max-w-7xl mx-auto text-6xl md:text-9xl text-white text-center">
             <span class=" pt-8 font-extrabold tracking-tight ">ZeroPage</span>
         </div>
