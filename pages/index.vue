@@ -15,7 +15,7 @@
                 <div type="" class="hidden md:block  px-6 py-2.5 bg-gray-800 text-white font-medium leading-tight uppercase rounded-full shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out">#since1991</div>
         </div>
 
-        <!-- 제로페이란? -->
+        <!-- 제로페이지란? -->
         <div data-aos="fade-up" class="max-w-6xl mx-auto text-3xl md:text-4xl pt-24 mt-24 text-white mb-10 md:mb-10 tracking-tight font-extrabold px-6  text-left">What is ZeroPage?</div>
         <div data-aos="fade-up" class="max-w-6xl md:mx-auto  pb-24 mb-4 text-lg font-normal text-white leading-loose text-justify break-all px-6  " role="alert">
             <strong>제로페이지는 공부하고자하는 뜻이 있는 사람들이 모인 일종의 인력의 장입니다. </strong>그 안에서 뜻이 같은 사람들을 만날수 있기를, 또는 자신이 아는 것에 대해 다른 사람들에게 전달해줄수 있기를, 또는 자신의 부족한 점을 다른 사람들로부터 얻어갈 수 있었으면 합니다. 개인의 이익들이 모여서 집단의 이익을 만들어가며, 집단의 이익을 추구하는 것이 곧 개개인들에게 이익이 되는 경지가 되었으면 합니다.
@@ -26,7 +26,7 @@
         <div data-aos="fade-up" class="max-w-6xl mx-auto px-6" role="alert">
            
             <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-8 mb-12 md:mb-24">
-              <div class="rounded-lg h-80 md:h-96 section bg-img group" style="background-image: url(recent1.png)">
+              <div class="rounded-lg h-80 md:h-96 section bg-img group" style="background-image: url(recent/recent1.png)">
                 <div class="block rounded-lg w-full h-full ">
                   <div class="px-6 md:px-11 py-6 md:py-10 absolute bottom-0 drop-shadow-xl text-white">
                     <div class="text-2xl md:text-3xl font-semibold keep-all">2022 엔젤스캠프</div>
@@ -37,8 +37,8 @@
                   </div>
                 </div>
               </div>
-              <div class="rounded-lg h-80 md:h-96 section bg-img " style="background-image: url(recent2.png)">
-                <div class="block rounded-lg w-full h-full  group">
+              <div class="rounded-lg h-80 md:h-96 section bg-img group" style="background-image: url(recent/recent2.png)">
+                <div class="block rounded-lg w-full h-full ">
                   <div class="px-6 md:px-11 py-6 md:py-10 absolute bottom-0 drop-shadow-xl text-white">
                     <div class="text-2xl md:text-3xl font-semibold keep-all">2022 지금그때</div>
                     <div class="pt-2">
