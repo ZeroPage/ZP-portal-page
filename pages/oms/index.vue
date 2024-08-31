@@ -1,6 +1,6 @@
 <template>
     <div class="w-full z-0 bg-black section h-content" >
-      <div data-aos="fade-right" class="pt-20 md:pt-15 pb-3 md:pb-10 max-w-7xl mx-auto px-6 text-center">
+      <div class="pt-20 md:pt-15 pb-3 md:pb-10 max-w-7xl mx-auto px-6 text-center">
           <div class="pb-6 text-3xl md:text-5xl font-semibold text-white">
               OMS
           </div>
@@ -22,7 +22,7 @@
       <div  class="max-w-7xl grid grid-cols-1 colspan pb-10 md:pb-24 mx-auto px-6">
         <div class="group px-0 py-3 md:px-5 md:py-5 bg-transparent hover:bg-zinc-800 rounded-xl transition hover:duration-200" v-for="oms in paginatedData" :key="oms.path">
             <nuxt-link :to='`${oms.path}`'>
-                <div class="block md:flex items-center md:justify-between px-4 md:px-6" data-aos="fade-up">
+                <div class="block md:flex items-center md:justify-between px-4 md:px-6" >
                     <div class="text-white text-lg md:text-xl font-medium w-full md:w-3/6">{{oms.title}} </div>
                     <div class="text-slate-400 text-base w-2/6 text-left hidden md:block"> {{oms.date}}</div>
                     <div class="text-slate-400 text-sm md:text-base w-auto md:w-1/6 text-left md:text-right"> {{oms.speaker}}</div>
@@ -31,15 +31,15 @@
         </div>
       </div>
         
-      <div class="flex justify-center items-center space-x-6 ">
-        <button :disabled="pageNumber <= 1" @click="onPreviousPageClick">
-          <Icon name="mdi:code-less-than" size="30" :class="{ 'text-white' : pageNumber > 1 }" />
-        </button>
-        <p>{{ pageNumber }} / {{ totalPage }}</p>
-        <button :disabled="pageNumber >= totalPage" @click="onNextPageClick">
-          <Icon name="mdi:code-greater-than" size="30" :class="{ 'text-white ': pageNumber < totalPage }" />
-        </button>
-      </div>
+      <div class="flex justify-center items-center space-x-6 text-white">
+      <button :disabled="pageNumber <= 1" @click="onPreviousPageClick">
+        <Icon name="mdi:code-less-than" size="30" :class="{ 'text-sky-400 ': pageNumber > 1 }" />
+      </button>
+      <p>{{ pageNumber }} / {{ totalPage }}</p>
+      <button :disabled="pageNumber >= totalPage" @click="onNextPageClick">
+        <Icon name="mdi:code-greater-than" size="30" :class="{ 'text-sky-400 ': pageNumber < totalPage }" />
+      </button>
+    </div>
     </div>
 </template>
 

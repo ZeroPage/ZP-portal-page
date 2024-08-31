@@ -9,5 +9,5 @@ export default defineNuxtConfig({
       }
     }
   },
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/content", "@nuxt/image"]
+  modules: ["@nuxtjs/tailwindcss", "@nuxt/content", "@nuxt/image", "@nuxt/icon"]
 })
