@@ -13,6 +13,7 @@
 
 
         <EventCategory data-aos="fade-up" class="md:pt-10 md:pb-20"/>
+        
     </div>
 
 </template>

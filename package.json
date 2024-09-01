@@ -1,64 +1,21 @@
 {
-  "name": "zp-page",
-  "version": "1.0.0",
+  "name": "nuxt-app",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@babel/core": "^7.23.0",
-    "@growthbunker/vuetimeline": "^0.1.17",
-    "@tinkoff/invest-openapi-js-sdk": "github:catsaredoomed/invest-openapi-js-sdk",
+    "@nuxt/content": "^2.13.2",
+    "@nuxt/icon": "^1.5.0",
+    "@nuxt/image": "^1.7.1",
+    "@nuxtjs/tailwindcss": "^6.12.1",
     "aos": "^2.3.4",
-    "axios": "^1.6.3",
-    "core-js": "^3.19.3",
-    "crypto-js": "^4.2.0",
-    "flowbite": "^1.5.2",
-    "nuxt": "^2.15.7",
-    "tw-elements": "^1.0.0-alpha12",
-    "vue": "2.6.14",
-    "vue-server-renderer": "2.6.14",
-    "vue-slick-carousel": "^1.0.6",
-    "vue-template-compiler": "2.6.14",
-    "vue-typer": "^1.2.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.23.0",
-    "@babel/plugin-transform-class-properties": "^7.23.3",
-    "@babel/plugin-transform-private-methods": "^7.23.3",
-    "@babel/plugin-transform-private-property-in-object": "^7.23.4",
-    "@nuxt/content": "^1.15.1",
-    "@nuxt/image": "^0.7.1",
-    "@nuxtjs/tailwindcss": "^4.2.1",
-    "@tailwindcss/typography": "^0.5.4",
-    "autoprefixer": "^10.4.7",
-    "postcss": "^8.4.14",
-    "tailwindcss": "^3.1.8",
-    "webpack": "^4.46.0"
-  },
-  "babel": {
-    "plugins": [
-      [
-        "@babel/plugin-transform-class-properties",
-        {
-          "loose": true
-        }
-      ],
-      [
-        "@babel/plugin-transform-private-methods",
-        {
-          "loose": true
-        }
-      ],
-      [
-        "@babel/plugin-transform-private-property-in-object",
-        {
-          "loose": true
-        }
-      ]
-    ]
+    "nuxt": "^3.12.4",
+    "vue": "latest"
   }
 }

@@ -4,7 +4,7 @@
             <div class="rounded-xl cursor-pointer mb-10 sm:mb-0 px-2 py-2">
                 <nuxt-link to="oms">
                     <div class="hover:scale-110 transition duration-300">
-                        <img :src="require(`~/assets/resources/new/oms.png`)" class="rounded-t-xl border-none rounded-b-xl"/>
+                        <img src="/event/oms.png" class="rounded-t-xl border-none rounded-b-xl"/>
                     </div>
                     <div class="text-center px-4 py-6">
                         <p class="font-general-semibold text-xl text-white font-semibold mb-2">OMS</p>
@@ -14,7 +14,7 @@
             <div class="rounded-xl cursor-pointer mb-10 sm:mb-0 px-2 py-2">
                 <nuxt-link to="sprouthon">
                     <div class="hover:scale-110 transition duration-300">
-                        <img :src="require(`~/assets/resources/new/sprouthon.png`)" class="rounded-t-xl border-none rounded-b-xl"/>
+                        <img src="/event/sprouthon.png" class="rounded-t-xl border-none rounded-b-xl"/>
                     </div>
                     <div class="text-center px-4 py-6">
                         <p class="font-general-semibold text-xl text-white font-semibold mb-2">새싹교실 & 새싹톤</p>
@@ -24,7 +24,7 @@
             <div class="rounded-xl cursor-pointer mb-10 sm:mb-0 px-2 py-2">
                 <nuxt-link to="/devilscamp">
                     <div class="hover:scale-110 transition duration-300">
-                        <img :src="require(`~/assets/resources/new/devilscamp.png`)" class="rounded-t-xl border-none rounded-b-xl"/>
+                        <img src="/event/devilscamp.png" class="rounded-t-xl border-none rounded-b-xl"/>
                     </div>
                     <div class="text-center px-4 py-6">
                         <p class="font-general-semibold text-xl text-white font-semibold mb-2">데블스캠프</p>
@@ -34,7 +34,7 @@
             <div class="rounded-xl cursor-pointer mb-10 sm:mb-0 px-2 py-2">
                 <nuxt-link to="/pre-angelscamp2023">
                     <div class="hover:scale-110 transition duration-300">
-                        <img :src="require(`~/assets/resources/new/angelscamp.png`)" class="rounded-t-xl border-none rounded-b-xl"/>
+                        <img src="/event/angelscamp.png" class="rounded-t-xl border-none rounded-b-xl"/>
                     </div>
                     <div class="text-center px-4 py-6">
                         <p class="font-general-semibold text-xl text-white font-semibold mb-2">엔젤스캠프</p>
@@ -44,7 +44,7 @@
             <div class="rounded-xl cursor-pointer mb-10 sm:mb-0 px-2 py-2">
                 <nuxt-link to="/pre-jigeumgeuddae2023">
                     <div class="hover:scale-110 transition duration-300">
-                        <img :src="require(`~/assets/resources/new/jigeumgeuddae.png`)" class="rounded-t-xl border-none rounded-b-xl"/>
+                        <img src="/event/jigeumgeuddae.png" class="rounded-t-xl border-none rounded-b-xl"/>
                     </div>
                     <div class="text-center px-4 py-6">
                         <p class="font-general-semibold text-xl text-white font-semibold mb-2">지금그때</p>
@@ -54,7 +54,7 @@
             <div class="rounded-xl cursor-pointer mb-10 sm:mb-0 px-2 py-2">
                 <nuxt-link to="/year-end-party">
                     <div class="hover:scale-110 transition duration-300">
-                        <img :src="require(`~/assets/resources/new/end-year-party.png`)" class="rounded-t-xl border-none rounded-b-xl"/>
+                        <img src="/event/end-year-party.png" class="rounded-t-xl border-none rounded-b-xl"/>
                     </div>
                     <div class="text-center px-4 py-6">
                         <p class="font-general-semibold text-xl text-white font-semibold mb-2">기년회</p>
@@ -73,5 +73,11 @@ export default {
 </script>
 
 <style scoped>
-
+.bg-img {
+        background-position: center;
+        background-repeat:  no-repeat;
+        /* background-attachment: fixed; */
+        background-size:  cover;
+        background-color: #000000;
+ }
 </style>
