@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="max-w-7xl grid grid-cols-1 colspan mt-5 md:mt-8 pb-14 md:pb-24 mx-auto px-6">
-            <div class="group hidden md:block">
+            <div data-aos="zoom-in" class="group hidden md:block">
               <div class=" flex items-center  py-5 md:py-8 ">
                 <div class="sbox">
                   <img  class="profile" :src="team01Img" alt="">
@@ -23,7 +23,7 @@
               </div>
             </div>
 
-            <div class="group hidden md:block">
+            <div data-aos="zoom-in" class="group hidden md:block">
               <div class=" flex items-center  py-5 md:py-8 justify-end">
                 <div class=" px-0 md:px-4 md:pr-9 text-right">
                   <p class="mb-1 md:mb-1.5 text-sm md:text-sm text-orange-400">TEAM-02</p>
@@ -37,19 +37,19 @@
             </div>
 
 
-            <div class="md:hidden">
+            <div data-aos="zoom-in" class="md:hidden">
               <img :src="team01Img" class="rounded-t-xl border-none rounded-b-xl"/>
             </div>
-            <div class="md:hidden text-center px-4 py-6">
+            <div data-aos="zoom-in" class="md:hidden text-center px-4 py-6">
               <a class="font-general-semibold text-xl text-white font-semibold mb-2 hover:text-green-400" href="https://github.com/beomjunback/sprouthon" target="blank">범준 가챠</a>
               <p class=" text-sm md:text-base text-white custom-text">백범준</p>
             </div>
 
-            <div class="md:hidden mt-4">
+            <div data-aos="zoom-in" class="md:hidden mt-4">
               <img :src="team02Img" class="rounded-t-xl border-none rounded-b-xl"/>
 
             </div>
-            <div class="md:hidden text-center px-4 py-6">
+            <div data-aos="zoom-in" class="md:hidden text-center px-4 py-6">
               <a class="font-general-semibold text-xl text-white font-semibold mb-2 hover:text-blue-400" href="https://github.com/uki0903/Bricks-Breaker-in-C" target="blank">벽돌깨기</a>
               <p class=" text-sm md:text-base text-white custom-text">최형욱 · 박지원</p>
             </div>
