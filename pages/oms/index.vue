@@ -44,7 +44,7 @@
 </template>
 
 <script lang="ts" setup>
-const { data } = await useAsyncData('home', () => queryContent('/oms').sort({ _id: -1 }).find())
+const { data } = await useAsyncData('home', () => queryContent('/oms').sort({ date: -1 }).find())
 
 const elementPerPage = ref(10)
 const pageNumber = ref(1)
