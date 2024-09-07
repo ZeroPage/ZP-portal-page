@@ -15,7 +15,7 @@
 
         <div class="max-w-7xl flex grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mx-auto px-6 sm:gap-10 pb-18 md:gap-12">
             <div  class="rounded-xl border-2 border-zinc-900 hover:border-white cursor-pointer mb-10 sm:mb-0 px-8 py-8 group " v-for="devilscamp in formattedData" :key="devilscamp.path">
-                <nuxt-link :to='`/devilscamp/${devilscamp.path}`'>
+                <nuxt-link :to='`${devilscamp.path}`'>
 
                     <div class="">
                         <!-- <img class="rounded-t-xl border-none rounded-b-xl" :src="require(`/devilscamp/${devilscamp.img}`)" alt=""> -->
