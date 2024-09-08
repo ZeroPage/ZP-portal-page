@@ -15,7 +15,12 @@
     "@nuxt/image": "^1.7.1",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "aos": "^2.3.4",
+    "autoprefixer": "^10.4.20",
     "nuxt": "^3.12.4",
-    "vue": "latest"
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.10",
+    "typed.js": "^2.1.0",
+    "vue": "latest",
+    "vue-typer": "^1.2.0"
   }
 }
