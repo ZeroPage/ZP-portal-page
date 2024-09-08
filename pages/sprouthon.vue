@@ -61,7 +61,13 @@
 <script>
 import team01Img from '@/public/sprouthon/01.jpg'; // Assuming the image is in the assets folder
 import team02Img from '@/public/sprouthon/02.jpg';
+import aosMixin from '~/mixins/aos';
+
+
+
 export default {
+    name: 'PageIndex',
+    mixins: [aosMixin],
     data() {
         return {
             team01Img,
