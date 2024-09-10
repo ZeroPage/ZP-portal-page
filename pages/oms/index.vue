@@ -64,7 +64,8 @@ const formattedData = computed(() => {
 const searchData = computed(() => {
   return formattedData.value.filter((data:any) => {
     const lowerTitle = data.title.toLocaleLowerCase()
-    if (lowerTitle.search(searchTest.value) !== -1)
+    const lowerSearchText = searchTest.value.toLocaleLowerCase()
+    if (lowerTitle.search(lowerSearchText) !== -1)
       return true
     else return false
   }) || []
