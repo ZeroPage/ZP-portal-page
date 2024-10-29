@@ -24,7 +24,7 @@
                 </tr>
                 <tr class="bg-gray-800 border-b ">
                     <th scope="row" class="py-4 px-6 font-medium  text-white whitespace-nowrap ">
-                        14:00 - 14:30
+                        14:00 - 14:10
                     </th>
                     <td class="py-4 px-6 text-white">
                         개회사
@@ -32,10 +32,10 @@
                 </tr>
                 <tr class="bg-gray-800 border-b ">
                     <th scope="row" class="py-4 px-6 font-medium text-white whitespace-nowrap ">
-                        14:30 - 15:00
+                        14:10 - 15:00
                     </th>
                     <td class="py-4 px-6 text-white">
-                        아이스브레이킹
+                        아이스브레이킹 - 올해의 퀴즈!
                     </td>
                 </tr>
                 <tr class="bg-gray-800 border-b ">

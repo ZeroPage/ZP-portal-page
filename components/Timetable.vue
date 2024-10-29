@@ -24,7 +24,7 @@
                 </tr>
                 <tr class="bg-gray-800 border-b ">
                     <th scope="row" class="py-4 px-6 font-medium text-white whitespace-nowrap ">
-                        20:00 - 20:30
+                        20:00 - 20:10
                     </th>
                     <td class="py-4 px-6 text-white">
                         엔젤스캠프 개막 및 회장 인사
@@ -32,7 +32,7 @@
                 </tr>
                 <tr class="bg-gray-800 border-b ">
                     <th scope="row" class="py-4 px-6 font-medium text-white whitespace-nowrap ">
-                        20:30 - 21:30
+                        20:10 - 21:00
                     </th>
                     <td class="py-4 px-6 text-white">
                         아이스브레이킹
@@ -40,7 +40,7 @@
                 </tr>
                 <tr class="bg-gray-800 border-b ">
                     <th scope="row" class="py-4 px-6 font-medium text-white whitespace-nowrap ">
-                        21:30 - 22:00
+                        21:00 - 21:10
                     </th>
                     <td class="py-4 px-6 text-white">
                         Ideate & 팀 메이킹
@@ -48,7 +48,7 @@
                 </tr>
                 <tr class="bg-gray-800 border-b ">
                     <th scope="row" class="py-4 px-6 font-medium text-white whitespace-nowrap ">
-                        22:00 - 23:30
+                        21:10 - 23:30
                     </th>
                     <td class="py-4 px-6 text-white">
                         프로젝트 개발
@@ -59,12 +59,12 @@
                         23:30 - 01:30
                     </th>
                     <td class="py-4 px-6 text-white">
-                        중간(기획)발표 및 야식
+                        중간 점검 및 야식
                     </td>
                 </tr>
                 <tr class="bg-gray-800 border-b ">
                     <th scope="row" class="py-4 px-6 font-medium text-white whitespace-nowrap ">
-                        01:30 - 05:00
+                        01:30 - 05:30
                     </th>
                     <td class="py-4 px-6 text-white">
                         프로젝트 개발
@@ -72,7 +72,7 @@
                 </tr>
                 <tr class="bg-gray-800 border-b ">
                     <th scope="row" class="py-4 px-6 font-medium text-white whitespace-nowrap ">
-                        05:00 - 06:00
+                        05:30 - 06:00
                     </th>
                     <td class="py-4 px-6 text-white">
                         최종 발표 준비
