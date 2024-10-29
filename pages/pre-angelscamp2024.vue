@@ -27,7 +27,9 @@
 
 
         </div>
-
+        <div  data-aos="zoom-in" class="max-w-4xl mx-auto pb-20 pt-4" style="text-align:center">
+            <a href="https://forms.gle/3XpddhyQoMNJKMKD6" target="blank" class="button1">신청하기</a>
+        </div>
 
         <div data-aos="zoom-in" class="max-w-7xl mx-auto text-3xl md:text-4xl pt-16 mt-10 text-white mb-10 md:mb-14 font-medium px-6 md:px-10 text-center">About</div>
         <div data-aos="zoom-in" class="max-w-7xl mx-auto px-6 md:px-10">
