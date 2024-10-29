@@ -32,7 +32,7 @@
                 </nuxt-link>
             </div>
             <div class="rounded-xl cursor-pointer mb-10 sm:mb-0 px-2 py-2">
-                <nuxt-link to="/pre-angelscamp2023">
+                <nuxt-link to="/pre-angelscamp2024">
                     <div class="hover:scale-110 transition duration-300">
                         <img :src="require(`~/assets/resources/new/angelscamp.png`)" class="rounded-t-xl border-none rounded-b-xl"/>
                     </div>
