@@ -23,7 +23,7 @@
                 ></vue-typer>
             </div>
 
-            <div class="pt-4 md:pt-8 font-medium text-white text-xl md:text-3xl ">11월 22일 20시 | 서울 서초구 방배동 528-82 B1층 오션스타</div>
+            <div class="pt-4 md:pt-8 font-medium text-white text-xl md:text-3xl ">11월 22일 20시 | 서울 송파구 백제고분로 399 5층</div>
 
 
         </div>
@@ -40,7 +40,7 @@
                 </div>
                 <div class="h-content">
                     <div class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3">When & Where</div>
-                    <div class="text-base md:text-lg text-slate-400 keep-all">11월 22일 20시 </br>서울 서초구 방배동 528-82 B1층 오션스타</div>
+                    <div class="text-base md:text-lg text-slate-400 keep-all">11월 22일 20시 </br>서울 송파구 백제고분로 399 5층</div>
                 </div>
                 <div class="h-content">
                     <div class="text-xl md:text-2xl text-white font-semibold mb-2 md:mb-3">What</div>
